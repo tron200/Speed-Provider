@@ -291,7 +291,7 @@
     <string name="please_upload_document">يرجى تحميل المستند الخاص بك</string>
     <string name="default_notification_channel_id">10001</string>
 
-    <string name="andwhy">لماذا تحدد؟</string>
+    <string name="andwhy">لماذا وضح؟</string>
     <string name="my_reason_is_not_listed">السبب غير مدرج</string>
     <string name="booked_another_cab">حجز سيارة أجرة أخرى</string>
     <string name="plan_changed">تم تغيير الخطة</string>
@@ -416,6 +416,8 @@
     <string name="confirm">تاكيد</string>
     <string name="another">ثان</string>
     <string name="mobile_number">رقم الهاتف</string>
+    <string name="if_you_didn_t_receive_an_otp">ان لم تستلم الرمز</string>
+    <string name="click">اضغط</string>
 
 
 </resources>

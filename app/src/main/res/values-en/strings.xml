@@ -368,5 +368,7 @@
     <string name="confirm">Confirm</string>
     <string name="another">Another</string>
     <string name="mobile_number">Mobile number</string>
+    <string name="if_you_didn_t_receive_an_otp">if you didn\'t receive an otp</string>
+    <string name="click">Click</string>
 
 </resources>

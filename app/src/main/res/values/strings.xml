@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Speed Driver"><!ENTITY trip "trip"><!ENTITY trips "rides"><!ENTITY tripscap "RIDES"><!ENTITY service "Service">]>
 
 <resources>
-    <string name="app_name">&appName;</string>
+    <string name="app_name" translatable="false">&appName;</string>
     <string name="google_map_api">AIzaSyD987pLKiSNASVnDzsvbPMHTxSvZR_bxRg</string>
 
     <string name="facebook_app_id">562245434540329</string>
@@ -368,5 +368,7 @@
     <string name="confirm">Confirm</string>
     <string name="another">Another</string>
     <string name="mobile_number">Mobile number</string>
+    <string name="if_you_didn_t_receive_an_otp">if you didn\'t receive an otp</string>
+    <string name="click">Click</string>
 
 </resources>
