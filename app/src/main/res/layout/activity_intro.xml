@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="@dimen/_16sdp"
-        android:fontFamily="@font/montserrat_semibold"
         android:textColor="@color/black"
         android:text="@string/choose_language"/>
     <LinearLayout

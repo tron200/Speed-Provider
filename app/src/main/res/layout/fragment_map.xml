@@ -458,7 +458,6 @@
                                     android:id="@+id/txtdriveraccpted"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_medium"
                                     android:gravity="center"
                                     android:padding="@dimen/_7sdp"
                                     android:text="@string/you_are_on_the_way"
@@ -515,7 +514,6 @@
                                     android:id="@+id/txtdriverArrived"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_medium"
                                     android:gravity="center"
                                     android:padding="@dimen/_7sdp"
                                     android:text="@string/you_have_to_reach_picked_up"
@@ -572,7 +570,6 @@
                                     android:id="@+id/txtdriverpicked"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_medium"
                                     android:gravity="center"
                                     android:padding="@dimen/_7sdp"
                                     android:text="@string/on_the_way_of_drop_off"
@@ -628,7 +625,6 @@
                                     android:id="@+id/txtdrivercompleted"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_medium"
                                     android:gravity="center"
                                     android:padding="@dimen/_7sdp"
                                     android:text="@string/driver_is_on_the_way"
@@ -1381,7 +1377,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:fontFamily="@font/montserrat_medium"
                             android:text="@string/total"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_20sdp" />
@@ -1418,7 +1413,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:fontFamily="@font/montserrat_medium"
                             android:text="@string/collect_cash"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_16sdp"
@@ -1429,7 +1423,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:fontFamily="@font/montserrat_medium"
                             android:gravity="end"
                             android:text=""
                             android:textColor="@color/white"
@@ -1632,7 +1625,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:background="@color/colorPrimary"
-                android:fontFamily="@font/montserrat_medium"
                 android:gravity="center"
                 android:text="@string/online"
                 android:textColor="@color/white"
@@ -2005,7 +1997,6 @@
                     android:id="@+id/lblProviderName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat_medium"
                     android:gravity="center"
                     android:text="Rajan"
                     android:textColor="@color/black"
@@ -2016,7 +2007,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/rate_provider"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_14sdp" />
@@ -2026,7 +2016,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/your_feedback_will_help"
                     android:textSize="@dimen/_12sdp" />
 
@@ -2034,7 +2023,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/improve_user_experience"
                     android:textSize="@dimen/_12sdp" />
 
@@ -2061,7 +2049,6 @@
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:background="@drawable/white_color_rect_shape"
                     android:backgroundTint="@color/view_grey_bg_"
-                    android:fontFamily="@font/montserrat_medium"
                     android:gravity="start"
 
                     android:hint="Additional comments ..."

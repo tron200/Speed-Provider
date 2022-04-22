@@ -186,7 +186,6 @@
                         android:drawableEnd="@mipmap/ic_right"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/black"
-                        android:fontFamily="@font/montserrat_medium"
                         android:gravity="center_vertical"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="@dimen/_3sdp"
@@ -203,7 +202,6 @@
                         android:drawableEnd="@mipmap/ic_right"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/black"
-                        android:fontFamily="@font/montserrat_medium"
                         android:gravity="center_vertical"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="@dimen/_3sdp"
@@ -220,7 +218,6 @@
                         android:drawableEnd="@mipmap/ic_right"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/black"
-                        android:fontFamily="@font/montserrat_medium"
                         android:gravity="center_vertical"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="@dimen/_3sdp"
@@ -237,7 +234,6 @@
                         android:drawableEnd="@mipmap/ic_right"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/black"
-                        android:fontFamily="@font/montserrat_medium"
                         android:gravity="center_vertical"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="@dimen/_3sdp"
@@ -265,7 +261,6 @@
                             android:backgroundTint="@color/black"
                             android:drawableStart="@drawable/ic_lanuage"
                             android:drawablePadding="@dimen/_10sdp"
-                            android:fontFamily="@font/montserrat_medium"
                             android:text="@string/change_language"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp" />
@@ -280,7 +275,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_medium"
                                 android:text="@string/english"
                                 android:textColor="@color/colorPrimary" />
 
@@ -295,7 +289,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_medium"
                                 android:text="@string/arbic"
                                 android:textColor="@color/colorPrimary" />
 
@@ -311,7 +304,6 @@
                         android:drawableStart="@drawable/ic_notification"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/black"
-                        android:fontFamily="@font/montserrat_medium"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingEnd="@dimen/_10sdp"
                         android:text="@string/notifications"

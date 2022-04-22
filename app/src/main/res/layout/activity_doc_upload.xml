@@ -115,7 +115,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="Motor Vehicle Inspection Certificate"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -159,7 +158,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="PSV Insurance Certificate"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -202,7 +200,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="Certificate Of Good Conduct"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -246,7 +243,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="PSV License"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -290,7 +286,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="Nation ID / Passport"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -334,7 +329,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="@font/montserrat_medium"
                     android:text="Upload Log Book"
                     android:textSize="@dimen/_12sdp"
                     android:visibility="gone" />
@@ -351,7 +345,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:fontFamily="@font/montserrat_medium"
                 android:gravity="center|start"
                 android:text="@string/i_certify_my_all_document_is_correct"
                 android:textColor="@color/black" />
@@ -367,7 +360,6 @@
             android:layout_marginEnd="@dimen/_25sdp"
             android:layout_marginBottom="@dimen/_15sdp"
             android:background="@drawable/round_shape"
-            android:fontFamily="@font/montserrat_semibold"
             android:text="@string/done_label"
             android:textColor="@color/white"
             android:textSize="@dimen/_14sdp" />

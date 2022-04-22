@@ -19,7 +19,6 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_semibold"
             android:text="@string/bank_account"
             android:textColor="@color/black"
             android:textSize="@dimen/_10sdp" />
@@ -29,7 +28,6 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="@dimen/_10sdp"
             android:text="@string/paypal_account"
             android:textColor="@color/black"
@@ -187,7 +185,6 @@
             android:elevation="10dp"
 
             android:background="@drawable/round_shape"
-            android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="@dimen/_5sdp"
             android:paddingEnd="@dimen/_5sdp"
             android:text="@string/add_account_"
@@ -205,7 +202,6 @@
             android:layout_marginBottom="@dimen/_25sdp"
             android:layout_weight="1"
             android:background="@drawable/round_shape"
-            android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="@dimen/_5sdp"
             android:paddingEnd="@dimen/_5sdp"
             android:text="@string/cancel_"

@@ -9,7 +9,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_44sdp"
-        android:fontFamily="@font/montserrat_semibold"
         android:gravity="center"
         android:background="@drawable/border_header"
         android:text="@string/reason_to_cancel"
@@ -28,7 +27,6 @@
             android:id="@+id/driver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_medium"
             android:text="@string/plan_changed"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -37,7 +35,6 @@
             android:id="@+id/vehicle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_medium"
             android:text="@string/booked_another_cab"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -46,7 +43,6 @@
             android:id="@+id/app"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_medium"
             android:text="@string/my_reason_is_not_listed"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -75,7 +71,6 @@
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_10sdp"
-        android:fontFamily="@font/montserrat_medium"
         android:hint="@string/andwhy"
         android:visibility="gone" />
 
