@@ -3175,6 +3175,9 @@ drawable emoji_recent
 drawable fastscroll__default_bubble
 drawable fastscroll__default_handle
 drawable filechooselogo
+drawable final_logo
+drawable final_logo_svg
+drawable final_logo_white
 drawable flag_ac
 drawable flag_ad
 drawable flag_ae
@@ -4117,6 +4120,7 @@ drawable set_location
 drawable simple_button_background
 drawable sos
 drawable source_location
+drawable speed
 drawable summary_
 drawable test_custom_background
 drawable toast_frame

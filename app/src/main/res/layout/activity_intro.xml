@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     android:orientation="vertical"
     android:gravity="center">
 
     <ImageView
         android:layout_width="@dimen/_196sdp"
-        android:background="@drawable/ic_launcher_web"
+        android:background="@drawable/final_logo_svg"
         android:layout_height="@dimen/_196sdp" />
     <TextView
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:gravity="center"
         android:textSize="@dimen/_16sdp"
         android:fontFamily="@font/montserrat_semibold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="@string/choose_language"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:textSize="@dimen/_14sdp"
                 android:text="@string/english"
                 android:buttonTint="@color/black"
-                android:textColor="@color/white"/>
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rdArb"
@@ -47,7 +47,7 @@
                 android:textSize="@dimen/_14sdp"
                 android:text="@string/arbic"
                 android:buttonTint="@color/black"
-                android:textColor="@color/white"/>
+                android:textColor="@color/black"/>
 
         </RadioGroup>
 
@@ -62,7 +62,6 @@
         android:text="@string/submit"
         android:textColor="@color/white"
         android:textSize="@dimen/_16sdp"
-        android:backgroundTint="#0000C0"
         android:background="@drawable/round_shape"/>
 
 

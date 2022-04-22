@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_intro.xml" value="0.1585144927536232" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_login.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_sign_up.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_earnings.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/notification_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable-xxhdpi/rounded_button.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_footer.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_header.xml" value="0.2" />
