@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -49,13 +50,14 @@ public class ForgotPassword extends AppCompatActivity {
     public Context context = ForgotPassword.this;
     Dialog dialog;
     String TAG = "ForgotPassword";
-    ImageView nextICON, backArrow;
+    ImageView backArrow;
     TextView titleText;
     TextInputLayout newPasswordLayout, confirmPasswordLayout, OtpLay;
     LinearLayout ll_resend;
     EditText newPassowrd, confirmPassword, OTP;
     EditText email;
     EditText mobile_no;
+    Button nextICON;
     CustomDialog customDialog;
     String validation = "",
             str_newPassword,

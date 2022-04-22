@@ -111,876 +111,877 @@
 54-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:34:9-69
 55        android:supportsRtl="true"
 55-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:35:9-35
-56        android:theme="@style/AppTheme" >
-56-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:36:9-40
-57        <activity
-57-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:40:9-44:59
-58            android:name="com.speed.provider.ui.activities.login.IntroActivity"
-58-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:41:13-80
-59            android:configChanges="locale|orientation"
-59-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:42:13-55
-60            android:screenOrientation="portrait"
-60-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:43:13-49
-61            android:theme="@style/AppTheme.NoActionBar" />
-61-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:44:13-56
-62        <activity
-62-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:46:9-49:78
-63            android:name="com.speed.provider.ui.activities.login.FaceBookLoginActivity"
-63-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:47:13-88
-64            android:screenOrientation="portrait"
-64-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:48:13-49
-65            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
-65-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:49:13-75
-66        <activity
-66-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:50:9-53:78
-67            android:name="com.speed.provider.ui.activities.login.GoogleLoginActivity"
-67-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:51:13-86
-68            android:screenOrientation="portrait"
-68-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:52:13-49
-69            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
-69-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:53:13-75
-70        <activity
-70-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:55:9-64:20
-71            android:name="com.speed.provider.ui.activities.NotificationTab"
-71-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:56:13-76
-72            android:configChanges="orientation|keyboardHidden|screenSize"
-72-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:57:13-74
-73            android:theme="@style/AppTheme.NoActionBar" >
-73-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:58:13-56
-74            <intent-filter>
-74-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:59:13-63:29
-75                <action android:name="com.quickridejadriver.providers.TARGETNOTIFICATION" />
-75-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:60:17-93
-75-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:60:25-90
-76
-77                <category android:name="android.intent.category.DEFAULT" />
-77-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
-77-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
-78            </intent-filter>
-79        </activity>
-80        <activity android:name="com.speed.provider.ui.activities.DocUploadActivity" />
-80-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:65:9-87
-80-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:65:19-84
-81
-82        <uses-library
-82-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:67:9-69:40
-83            android:name="org.apache.http.legacy"
-83-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:68:13-50
-84            android:required="false" />
-84-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:69:13-37
-85
-86        <activity
-86-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:71:9-74:59
-87            android:name="com.speed.provider.ui.activities.WithdrawActivity"
-87-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:72:13-77
-88            android:theme="@style/AppTheme.NoActionBar" />
-88-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:74:13-56
-89        <activity
-89-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:75:9-78:59
-90            android:name="com.speed.provider.ui.activities.OtpVerification"
-90-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:76:13-76
-91            android:theme="@style/AppTheme.NoActionBar" />
-91-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:78:13-56
-92        <activity
-92-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:79:9-83:67
-93            android:name="com.speed.provider.ui.activities.WithdrawAmountActivity"
-93-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:80:13-83
-94            android:screenOrientation="portrait"
-94-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:81:13-49
-95            android:theme="@style/AppTheme.NoActionBar"
-95-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:82:13-56
-96            android:windowSoftInputMode="stateHidden|adjustPan" />
-96-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:83:13-64
-97        <activity android:name="com.speed.provider.ui.activities.DocumentStatus" />
-97-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:84:9-84
-97-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:84:19-81
-98        <activity
-98-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:85:9-93:20
-99            android:name="com.speed.provider.ui.activities.SplashScreen"
-99-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:86:13-73
-100            android:theme="@style/AppTheme.NoActionBar" >
-100-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:87:13-56
-101            <intent-filter>
-101-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:88:13-92:29
-102                <action android:name="android.intent.action.MAIN" />
-102-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:89:17-69
-102-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:89:25-66
-103
-104                <category android:name="android.intent.category.LAUNCHER" />
-104-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:91:17-77
-104-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:91:27-74
-105            </intent-filter>
-106        </activity>
-107        <activity
-107-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:94:9-96:59
-108            android:name="com.speed.provider.Login"
-108-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:95:13-52
-109            android:theme="@style/AppTheme.NoActionBar" />
-109-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:96:13-56
-110        <activity
-110-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:97:9-99:59
-111            android:name="com.speed.provider.ui.activities.FullImage"
-111-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:98:13-70
-112            android:theme="@style/AppTheme.NoActionBar" />
-112-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:99:13-56
-113        <activity
-113-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:100:9-102:59
-114            android:name="com.speed.provider.ui.activities.login.SignUp"
-114-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:101:13-73
-115            android:theme="@style/AppTheme.NoActionBar" />
-115-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:102:13-56
-116        <activity
-116-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:103:9-110:20
-117            android:name="com.speed.provider.chat.UserChatActivity"
-117-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:104:13-68
-118            android:screenOrientation="portrait"
-118-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:106:13-49
-119            android:theme="@style/AppTheme.NoActionBar"
-119-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:107:13-56
-120            android:windowSoftInputMode="adjustResize" >
-120-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:108:13-55
-121        </activity>
-122        <activity
-122-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:111:9-114:59
-123            android:name="com.speed.provider.ui.activities.UserReview"
-123-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:112:13-71
-124            android:screenOrientation="portrait"
-124-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:113:13-49
-125            android:theme="@style/AppTheme.NoActionBar" />
-125-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:114:13-56
-126        <activity
-126-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:115:9-118:59
-127            android:name="com.speed.provider.ui.activities.login.ForgotPassword"
-127-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:116:13-81
-128            android:screenOrientation="portrait"
-128-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:117:13-49
-129            android:theme="@style/AppTheme.NoActionBar" />
-129-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:118:13-56
-130
-131        <meta-data
-131-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:120:9-122:54
-132            android:name="com.google.android.geo.API_KEY"
-132-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:121:13-58
-133            android:value="@string/google_map_api" />
-133-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:122:13-51
-134
-135        <activity
-135-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:124:9-128:58
-136            android:name="com.speed.provider.ui.activities.MainActivity"
-136-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:125:13-73
-137            android:label="@string/app_name"
-137-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:126:13-45
-138            android:theme="@style/AppTheme.NoActionBar"
-138-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:127:13-56
-139            android:windowSoftInputMode="adjustResize" />
-139-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:128:13-55
-140        <activity
-140-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:129:9-134:57
-141            android:name="com.speed.provider.ui.activities.EditProfile"
-141-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:130:13-72
-142            android:label="@string/app_name"
-142-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:131:13-45
-143            android:screenOrientation="portrait"
-143-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:132:13-49
-144            android:theme="@style/AppTheme.NoActionBar"
-144-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:133:13-56
-145            android:windowSoftInputMode="stateHidden" />
-145-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:134:13-54
-146        <activity
-146-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:135:9-140:57
-147            android:name="com.speed.provider.ui.activities.ShowProfile"
-147-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:136:13-72
-148            android:label="@string/app_name"
-148-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:137:13-45
-149            android:screenOrientation="portrait"
-149-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:138:13-49
-150            android:theme="@style/AppTheme.NoActionBar"
-150-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:139:13-56
-151            android:windowSoftInputMode="stateHidden" />
-151-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:140:13-54
-152        <activity
-152-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:141:9-146:58
-153            android:name="com.speed.provider.ui.activities.HistoryDetails"
-153-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:142:13-75
-154            android:label="@string/app_name"
-154-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:143:13-45
-155            android:screenOrientation="portrait"
-155-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:144:13-49
-156            android:theme="@style/AppTheme.NoActionBar"
-156-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:145:13-56
-157            android:windowSoftInputMode="adjustResize" />
-157-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:146:13-55
-158        <activity
-158-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:147:9-150:52
-159            android:name="com.speed.provider.ui.activities.HistoryActivity"
-159-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:148:13-76
-160            android:label="History"
-160-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:149:13-36
-161            android:screenOrientation="portrait" />
-161-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:150:13-49
-162        <activity
-162-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:151:9-154:57
-163            android:name="com.speed.provider.ui.activities.CouponActivity"
-163-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:152:13-75
-164            android:label="Coupon"
-164-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:153:13-35
-165            android:windowSoftInputMode="stateHidden" />
-165-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:154:13-54
-166        <activity
-166-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:155:9-160:58
-167            android:name="com.speed.provider.ui.activities.login.ChangePassword"
-167-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:156:13-81
-168            android:label="@string/app_name"
-168-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:157:13-45
-169            android:screenOrientation="portrait"
-169-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:158:13-49
-170            android:theme="@style/AppTheme.NoActionBar"
-170-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:159:13-56
-171            android:windowSoftInputMode="adjustResize" />
-171-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:160:13-55
-172        <activity
-172-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:161:9-166:58
-173            android:name="com.speed.provider.ui.activities.CustomGooglePlacesSearch"
-173-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:162:13-85
-174            android:label="@string/app_name"
-174-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:163:13-45
-175            android:screenOrientation="portrait"
-175-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:164:13-49
-176            android:theme="@style/AppTheme.NoActionBar"
-176-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:165:13-56
-177            android:windowSoftInputMode="adjustResize" />
-177-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:166:13-55
-178
-179        <service android:name="com.speed.provider.fcm.FCMService" >
-179-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:168:9-172:19
-179-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:168:18-66
-180            <intent-filter>
-180-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:169:13-171:29
-181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-181-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:17-78
-181-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:25-75
-182            </intent-filter>
-183        </service>
-184
-185        <meta-data
-185-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:173:9-175:71
-186            android:name="com.google.firebase.messaging.default_notification_channel_id"
-186-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:174:13-89
-187            android:value="@string/default_notification_channel_id" />
-187-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:175:13-68
-188
-189        <receiver
-189-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:177:9-179:39
-190            android:name="com.speed.provider.fcm.MyBroadcastReceiver"
-190-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:178:13-70
-191            android:exported="true" />
-191-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:179:13-36
-192
-193        <meta-data
-193-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:181:9-183:48
-194            android:name="com.facebook.accountkit.ApplicationName"
-194-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:182:13-67
-195            android:value="@string/app_name" />
-195-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:183:13-45
-196        <meta-data
-196-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:186:9-188:55
-197            android:name="com.facebook.sdk.ApplicationId"
-197-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:187:13-58
-198            android:value="@string/facebook_app_id" />
-198-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:188:13-52
-199
-200        <activity
-200-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:190:9-193:48
-201            android:name="com.facebook.FacebookActivity"
-201-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:191:13-57
-202            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-202-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:192:13-96
-203            android:label="@string/app_name"
-203-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:193:13-45
-204            android:theme="@style/com_facebook_activity_theme" />
-204-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:32:13-63
-205        <activity
-205-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:194:9-206:20
-206            android:name="com.facebook.CustomTabActivity"
-206-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:195:13-58
-207            android:exported="true" >
-207-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:196:13-36
-208            <intent-filter>
-208-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:197:13-205:29
-209                <action android:name="android.intent.action.VIEW" />
-209-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
-209-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
-210
-211                <category android:name="android.intent.category.DEFAULT" />
-211-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
-211-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
-212                <category android:name="android.intent.category.BROWSABLE" />
-212-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
-212-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
-213
-214                <data android:scheme="@string/fb_login_protocol_scheme" />
-214-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
-214-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
-215            </intent-filter>
-216        </activity>
-217        <activity
-217-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:209:9-213:59
-218            android:name="com.speed.provider.ui.activities.SosCallActivity"
-218-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:210:13-76
-219            android:hardwareAccelerated="false"
-219-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:211:13-48
-220            android:screenOrientation="portrait"
-220-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:212:13-49
-221            android:theme="@style/AppTheme.NoActionBar" />
-221-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:213:13-56
-222        <activity
-222-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:214:9-218:59
-223            android:name="com.speed.provider.ui.activities.ComplaintsAcivity"
-223-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:215:13-78
-224            android:hardwareAccelerated="false"
-224-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:216:13-48
-225            android:screenOrientation="portrait"
-225-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:217:13-49
-226            android:theme="@style/AppTheme.NoActionBar" />
-226-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:218:13-56
-227        <activity
-227-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:219:9-222:59
-228            android:name="com.speed.provider.ui.activities.LegalActivity"
-228-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:220:13-74
-229            android:hardwareAccelerated="false"
-229-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:221:13-48
-230            android:theme="@style/AppTheme.NoActionBar" />
-230-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:222:13-56
-231        <activity
-231-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:223:9-227:59
-232            android:name="com.speed.provider.ui.activities.TermsOfUseActivity"
-232-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:224:13-79
-233            android:hardwareAccelerated="false"
-233-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:225:13-48
-234            android:screenOrientation="portrait"
-234-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:226:13-49
-235            android:theme="@style/AppTheme.NoActionBar" />
-235-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:227:13-56
-236        <activity
-236-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:228:9-232:59
-237            android:name="com.speed.provider.ui.activities.PrivacyPolicyActivity"
-237-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:229:13-82
-238            android:hardwareAccelerated="false"
-238-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:230:13-48
-239            android:screenOrientation="portrait"
-239-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:231:13-49
-240            android:theme="@style/AppTheme.NoActionBar" />
-240-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:232:13-56
-241        <activity
-241-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:233:9-237:59
-242            android:name="com.speed.provider.ui.activities.UpdateProfile"
-242-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:234:13-74
-243            android:hardwareAccelerated="false"
-243-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:235:13-48
-244            android:screenOrientation="portrait"
-244-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:236:13-49
-245            android:theme="@style/AppTheme.NoActionBar" />
-245-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:237:13-56
-246        <activity
-246-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:238:9-243:58
-247            android:name="com.speed.provider.ui.activities.WaitingForApproval"
-247-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:239:13-79
-248            android:label="@string/app_name"
-248-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:240:13-45
-249            android:screenOrientation="portrait"
-249-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:241:13-49
-250            android:theme="@style/AppTheme.NoActionBar"
-250-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:242:13-56
-251            android:windowSoftInputMode="adjustResize" />
-251-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:243:13-55
-252        <activity
-252-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:244:9-248:59
-253            android:name="com.speed.provider.ui.activities.FavouritePlaceSearch"
-253-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:245:13-81
-254            android:hardwareAccelerated="false"
-254-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:246:13-48
-255            android:screenOrientation="portrait"
-255-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:247:13-49
-256            android:theme="@style/AppTheme.NoActionBar" />
-256-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:248:13-56
-257        <activity
-257-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:249:9-253:59
-258            android:name="com.speed.provider.ui.activities.DocumentUpload"
-258-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:250:13-75
-259            android:configChanges="orientation|keyboardHidden"
-259-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:251:13-63
-260            android:screenOrientation="portrait"
-260-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:252:13-49
-261            android:theme="@style/AppTheme.NoActionBar" />
-261-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:253:13-56
-262        <activity
-262-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:256:9-260:59
-263            android:name="com.speed.provider.ui.activities.TrackActivity"
-263-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:257:13-74
-264            android:configChanges="orientation|keyboardHidden"
-264-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:258:13-63
-265            android:screenOrientation="portrait"
-265-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:259:13-49
-266            android:theme="@style/AppTheme.NoActionBar" />
-266-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:260:13-56
-267        <activity
-267-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:261:9-264:59
-268            android:name="com.speed.provider.ui.activities.Profile"
-268-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:262:13-68
-269            android:configChanges="orientation|keyboardHidden"
-269-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:263:13-63
-270            android:theme="@style/AppTheme.NoActionBar" />
-270-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:264:13-56
-271        <activity
-271-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:265:9-269:59
-272            android:name="com.speed.provider.ui.activities.EarningActivity"
-272-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:266:13-76
-273            android:configChanges="orientation|keyboardHidden"
-273-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:267:13-63
-274            android:screenOrientation="portrait"
-274-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:268:13-49
-275            android:theme="@style/AppTheme.NoActionBar" />
-275-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:269:13-56
-276
-277        <provider
-278            android:name="androidx.core.content.FileProvider"
-278-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:272:13-62
-279            android:authorities="com.speed.provider.provider"
-279-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:273:13-60
-280            android:exported="false"
-280-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:274:13-37
-281            android:grantUriPermissions="true" >
-281-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:275:13-47
-282            <meta-data
-282-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:276:13-278:54
-283                android:name="android.support.FILE_PROVIDER_PATHS"
-283-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:277:17-67
-284                android:resource="@xml/file_paths" />
-284-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:278:17-51
-285        </provider>
-286
-287        <activity
-287-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:12:9-15:58
-288            android:name="com.stripe.android.view.AddSourceActivity"
-288-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:13:13-69
-289            android:theme="@style/StripeDefaultTheme"
-289-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:14:13-54
-290            android:windowSoftInputMode="stateVisible" />
-290-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:15:13-55
-291        <activity
-291-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:16:9-18:57
-292            android:name="com.stripe.android.view.PaymentMethodsActivity"
-292-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:17:13-74
-293            android:theme="@style/StripeDefaultTheme" />
-293-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:18:13-54
-294        <activity
-294-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:19:9-21:57
-295            android:name="com.stripe.android.view.PaymentFlowActivity"
-295-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:20:13-71
-296            android:theme="@style/StripeDefaultTheme" />
-296-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:21:13-54
-297        <activity
-297-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:22:9-24:57
-298            android:name="com.stripe.android.view.AuthWebViewActivity"
-298-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:23:13-71
-299            android:theme="@style/StripeDefaultTheme" />
-299-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:24:13-54
-300        <activity
-300-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:17:9-20:57
-301            android:name="com.vincent.filepicker.activity.ImagePickActivity"
-301-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:18:13-77
-302            android:screenOrientation="portrait"
-302-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:19:13-49
-303            android:theme="@style/vw_FilePickerTheme" />
-303-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:20:13-54
-304        <activity
-304-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:21:9-25:57
-305            android:name="com.vincent.filepicker.activity.ImageBrowserActivity"
-305-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:22:13-80
-306            android:hardwareAccelerated="false"
-306-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:23:13-48
-307            android:screenOrientation="portrait"
-307-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:24:13-49
-308            android:theme="@style/vw_FilePickerTheme" />
-308-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:25:13-54
-309        <activity
-309-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:26:9-29:57
-310            android:name="com.vincent.filepicker.activity.VideoPickActivity"
-310-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:27:13-77
-311            android:screenOrientation="portrait"
-311-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:28:13-49
-312            android:theme="@style/vw_FilePickerTheme" />
-312-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:29:13-54
-313        <activity
-313-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:30:9-33:57
-314            android:name="com.vincent.filepicker.activity.AudioPickActivity"
-314-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:31:13-77
-315            android:screenOrientation="portrait"
-315-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:32:13-49
-316            android:theme="@style/vw_FilePickerTheme" />
-316-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:33:13-54
-317        <activity
-317-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:34:9-37:57
-318            android:name="com.vincent.filepicker.activity.NormalFilePickActivity"
-318-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:35:13-82
-319            android:screenOrientation="portrait"
-319-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:36:13-49
-320            android:theme="@style/vw_FilePickerTheme" />
-320-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:37:13-54
-321        <activity
-321-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
-322            android:name="com.karumi.dexter.DexterActivity"
-322-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
-323            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-323-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
-324
-325        <service
-325-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:13:9-19:19
-326            android:name="com.google.firebase.components.ComponentDiscoveryService"
-326-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:14:13-84
-327            android:directBootAware="true"
-327-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-328            android:exported="false" >
-328-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:15:13-37
-329            <meta-data
-329-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
-330                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-330-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
-331                android:value="com.google.firebase.components.ComponentRegistrar" />
-331-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
-332            <meta-data
-332-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-333                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-333-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-334                android:value="com.google.firebase.components.ComponentRegistrar" />
-334-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-335            <meta-data
-335-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
-336                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-336-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
-337                android:value="com.google.firebase.components.ComponentRegistrar" />
-337-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
-338            <meta-data
-338-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
-339                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-339-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
-340                android:value="com.google.firebase.components.ComponentRegistrar" />
-340-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
-341            <meta-data
-341-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-342                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-342-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-343                android:value="com.google.firebase.components.ComponentRegistrar" />
-343-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-344            <meta-data
-344-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
-345                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-345-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
-346                android:value="com.google.firebase.components.ComponentRegistrar" />
-346-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
-347        </service>
-348
-349        <activity
-349-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:12:9-16:66
-350            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-350-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:13:13-86
-351            android:exported="false"
-351-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:14:13-37
-352            android:label=""
-352-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:15:13-29
-353            android:theme="@style/EasyPermissions.Transparent" />
-353-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:16:13-63
-354        <activity android:name="com.facebook.CustomTabMainActivity" />
-354-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:9-71
-354-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:19-68
-355        <activity
-355-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
-356            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-356-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
-357            android:excludeFromRecents="true"
-357-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
-358            android:exported="false"
-358-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
-359            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-359-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
-360        <!--
-361            Service handling Google Sign-In user revocation. For apps that do not integrate with
-362            Google Sign-In, this service will never be started.
-363        -->
-364        <service
-364-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
-365            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-365-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
-366            android:exported="true"
-366-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
-367            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-367-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
-368            android:visibleToInstantApps="true" />
-368-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
-369
-370        <activity
-370-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-371            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-371-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-372            android:excludeFromRecents="true"
-372-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-373            android:exported="true"
-373-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-374            android:launchMode="singleTask"
-374-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-375            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-376            <intent-filter>
-376-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-377                <action android:name="android.intent.action.VIEW" />
-377-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
-377-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
-378
-379                <category android:name="android.intent.category.DEFAULT" />
-379-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
-379-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
-380                <category android:name="android.intent.category.BROWSABLE" />
-380-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
-380-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
-381
-382                <data
-382-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
-383                    android:host="firebase.auth"
-384                    android:path="/"
-385                    android:scheme="genericidp" />
-385-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
-386            </intent-filter>
-387        </activity>
-388        <activity
-388-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-389            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-389-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-390            android:excludeFromRecents="true"
-390-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-391            android:exported="true"
-391-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-392            android:launchMode="singleTask"
-392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-393            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-394            <intent-filter>
-394-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-395                <action android:name="android.intent.action.VIEW" />
-395-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
-395-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
-396
-397                <category android:name="android.intent.category.DEFAULT" />
-397-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
-397-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
-398                <category android:name="android.intent.category.BROWSABLE" />
-398-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
-398-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
-399
-400                <data
-400-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
-401                    android:host="firebase.auth"
-402                    android:path="/"
-403                    android:scheme="recaptcha" />
-403-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
-404            </intent-filter>
-405        </activity>
-406
-407        <service
-407-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-408            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-408-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-409            android:enabled="true"
-409-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-410            android:exported="false" >
-410-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-411            <intent-filter>
-411-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-412                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-412-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-412-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-413
-414                <category android:name="android.intent.category.DEFAULT" />
-414-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
-414-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
-415            </intent-filter>
-416        </service>
-417
-418        <activity
-418-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
-419            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-419-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
-420            android:exported="false"
-420-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
-421            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-421-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
-422
-423        <meta-data
-423-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:12:9-14:69
-424            android:name="com.google.android.gms.version"
-424-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:13:13-58
-425            android:value="@integer/google_play_services_version" />
-425-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:14:13-66
-426
-427        <receiver
-427-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
-428            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-428-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
-429            android:exported="true"
-429-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
-430            android:permission="com.google.android.c2dm.permission.SEND" >
-430-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
-431            <intent-filter>
-431-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
-432                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-432-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
-432-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
-433            </intent-filter>
-434        </receiver>
-435        <!--
-436             FirebaseMessagingService performs security checks at runtime,
-437             but set to not exported to explicitly avoid allowing another app to call it.
-438        -->
-439        <service
-439-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
-440            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-440-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
-441            android:directBootAware="true"
-441-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
-442            android:exported="false" >
-442-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
-443            <intent-filter android:priority="-500" >
-443-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:169:13-171:29
-444                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-444-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:17-78
-444-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:25-75
-445            </intent-filter>
-446        </service>
-447
-448        <provider
-448-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-449            android:name="com.squareup.picasso.PicassoProvider"
-449-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-450            android:authorities="com.speed.provider.com.squareup.picasso"
-450-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-451            android:exported="false" />
-451-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-452        <provider
-452-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-453            android:name="com.google.firebase.provider.FirebaseInitProvider"
-453-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-454            android:authorities="com.speed.provider.firebaseinitprovider"
-454-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-455            android:directBootAware="true"
-455-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-456            android:exported="false"
-456-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-457            android:initOrder="100" />
-457-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-458
-459        <receiver
-459-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
-460            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-460-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
-461            android:enabled="true"
-461-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
-462            android:exported="false" >
-462-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
-463        </receiver>
-464
-465        <service
-465-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
-466            android:name="com.google.android.gms.measurement.AppMeasurementService"
-466-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
-467            android:enabled="true"
-467-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
-468            android:exported="false" />
-468-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
-469        <service
-469-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
-470            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-470-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
-471            android:enabled="true"
-471-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
-472            android:exported="false"
-472-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
-473            android:permission="android.permission.BIND_JOB_SERVICE" />
-473-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
-474        <!--
-475         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-476         with the application context. This config is merged in with the host app's manifest,
-477         but there can only be one provider with the same authority activated at any given
-478         point; so if the end user has two or more different apps that use Facebook SDK, only the
-479         first one will be able to use the provider. To work around this problem, we use the
-480         following placeholder in the authority to identify each host application as if it was
-481         a completely different provider.
-482        -->
-483        <provider
-483-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:39:9-42:40
-484            android:name="com.facebook.internal.FacebookInitProvider"
-484-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:40:13-70
-485            android:authorities="com.speed.provider.FacebookInitProvider"
-485-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:41:13-72
-486            android:exported="false" />
-486-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:42:13-37
-487
-488        <receiver
-488-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:44:9-50:20
-489            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-489-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:45:13-86
-490            android:exported="false" >
-490-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:46:13-37
-491            <intent-filter>
-491-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:47:13-49:29
-492                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-492-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:17-95
-492-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:25-92
-493            </intent-filter>
-494        </receiver>
-495        <receiver
-495-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:51:9-58:20
-496            android:name="com.facebook.CampaignTrackingReceiver"
-496-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:52:13-65
-497            android:exported="true"
-497-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:53:13-36
-498            android:permission="android.permission.INSTALL_PACKAGES" >
-498-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:54:13-69
-499            <intent-filter>
-499-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:55:13-57:29
-500                <action android:name="com.android.vending.INSTALL_REFERRER" />
-500-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:17-79
-500-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:25-76
-501            </intent-filter>
-502        </receiver>
-503
-504        <service
-504-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
-505            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-505-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
-506            android:exported="false" >
-506-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
-507            <meta-data
-507-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
-508                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-508-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
-509                android:value="cct" />
-509-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
-510        </service>
-511        <service
-511-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
-512            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-512-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
-513            android:exported="false"
-513-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
-514            android:permission="android.permission.BIND_JOB_SERVICE" >
-514-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
-515        </service>
-516
-517        <receiver
-517-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
-518            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-518-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
-519            android:exported="false" />
-519-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
-520    </application>
-521
-522</manifest>
+56        android:testOnly="true"
+57        android:theme="@style/AppTheme" >
+57-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:36:9-40
+58        <activity
+58-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:40:9-44:59
+59            android:name="com.speed.provider.ui.activities.login.IntroActivity"
+59-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:41:13-80
+60            android:configChanges="locale|orientation"
+60-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:42:13-55
+61            android:screenOrientation="portrait"
+61-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:43:13-49
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:44:13-56
+63        <activity
+63-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:46:9-49:78
+64            android:name="com.speed.provider.ui.activities.login.FaceBookLoginActivity"
+64-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:47:13-88
+65            android:screenOrientation="portrait"
+65-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:48:13-49
+66            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+66-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:49:13-75
+67        <activity
+67-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:50:9-53:78
+68            android:name="com.speed.provider.ui.activities.login.GoogleLoginActivity"
+68-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:51:13-86
+69            android:screenOrientation="portrait"
+69-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:52:13-49
+70            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+70-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:53:13-75
+71        <activity
+71-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:55:9-64:20
+72            android:name="com.speed.provider.ui.activities.NotificationTab"
+72-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:56:13-76
+73            android:configChanges="orientation|keyboardHidden|screenSize"
+73-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:57:13-74
+74            android:theme="@style/AppTheme.NoActionBar" >
+74-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:58:13-56
+75            <intent-filter>
+75-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:59:13-63:29
+76                <action android:name="com.quickridejadriver.providers.TARGETNOTIFICATION" />
+76-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:60:17-93
+76-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:60:25-90
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
+78-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
+79            </intent-filter>
+80        </activity>
+81        <activity android:name="com.speed.provider.ui.activities.DocUploadActivity" />
+81-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:65:9-87
+81-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:65:19-84
+82
+83        <uses-library
+83-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:67:9-69:40
+84            android:name="org.apache.http.legacy"
+84-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:68:13-50
+85            android:required="false" />
+85-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:69:13-37
+86
+87        <activity
+87-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:71:9-74:59
+88            android:name="com.speed.provider.ui.activities.WithdrawActivity"
+88-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:72:13-77
+89            android:theme="@style/AppTheme.NoActionBar" />
+89-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:74:13-56
+90        <activity
+90-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:75:9-78:59
+91            android:name="com.speed.provider.ui.activities.OtpVerification"
+91-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:76:13-76
+92            android:theme="@style/AppTheme.NoActionBar" />
+92-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:78:13-56
+93        <activity
+93-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:79:9-83:67
+94            android:name="com.speed.provider.ui.activities.WithdrawAmountActivity"
+94-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:80:13-83
+95            android:screenOrientation="portrait"
+95-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:81:13-49
+96            android:theme="@style/AppTheme.NoActionBar"
+96-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:82:13-56
+97            android:windowSoftInputMode="stateHidden|adjustPan" />
+97-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:83:13-64
+98        <activity android:name="com.speed.provider.ui.activities.DocumentStatus" />
+98-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:84:9-84
+98-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:84:19-81
+99        <activity
+99-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:85:9-93:20
+100            android:name="com.speed.provider.ui.activities.SplashScreen"
+100-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:86:13-73
+101            android:theme="@style/AppTheme.NoActionBar" >
+101-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:87:13-56
+102            <intent-filter>
+102-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:88:13-92:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:89:17-69
+103-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:89:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:91:17-77
+105-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:91:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:94:9-96:59
+109            android:name="com.speed.provider.Login"
+109-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:95:13-52
+110            android:theme="@style/AppTheme.NoActionBar" />
+110-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:96:13-56
+111        <activity
+111-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:97:9-99:59
+112            android:name="com.speed.provider.ui.activities.FullImage"
+112-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:98:13-70
+113            android:theme="@style/AppTheme.NoActionBar" />
+113-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:99:13-56
+114        <activity
+114-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:100:9-102:59
+115            android:name="com.speed.provider.ui.activities.login.SignUp"
+115-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:101:13-73
+116            android:theme="@style/AppTheme.NoActionBar" />
+116-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:102:13-56
+117        <activity
+117-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:103:9-110:20
+118            android:name="com.speed.provider.chat.UserChatActivity"
+118-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:104:13-68
+119            android:screenOrientation="portrait"
+119-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:106:13-49
+120            android:theme="@style/AppTheme.NoActionBar"
+120-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:107:13-56
+121            android:windowSoftInputMode="adjustResize" >
+121-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:108:13-55
+122        </activity>
+123        <activity
+123-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:111:9-114:59
+124            android:name="com.speed.provider.ui.activities.UserReview"
+124-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:112:13-71
+125            android:screenOrientation="portrait"
+125-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:113:13-49
+126            android:theme="@style/AppTheme.NoActionBar" />
+126-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:114:13-56
+127        <activity
+127-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:115:9-118:59
+128            android:name="com.speed.provider.ui.activities.login.ForgotPassword"
+128-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:116:13-81
+129            android:screenOrientation="portrait"
+129-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:117:13-49
+130            android:theme="@style/AppTheme.NoActionBar" />
+130-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:118:13-56
+131
+132        <meta-data
+132-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:120:9-122:54
+133            android:name="com.google.android.geo.API_KEY"
+133-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:121:13-58
+134            android:value="@string/google_map_api" />
+134-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:122:13-51
+135
+136        <activity
+136-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:124:9-128:58
+137            android:name="com.speed.provider.ui.activities.MainActivity"
+137-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:125:13-73
+138            android:label="@string/app_name"
+138-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:126:13-45
+139            android:theme="@style/AppTheme.NoActionBar"
+139-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:127:13-56
+140            android:windowSoftInputMode="adjustResize" />
+140-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:128:13-55
+141        <activity
+141-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:129:9-134:57
+142            android:name="com.speed.provider.ui.activities.EditProfile"
+142-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:130:13-72
+143            android:label="@string/app_name"
+143-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:131:13-45
+144            android:screenOrientation="portrait"
+144-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:132:13-49
+145            android:theme="@style/AppTheme.NoActionBar"
+145-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:133:13-56
+146            android:windowSoftInputMode="stateHidden" />
+146-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:134:13-54
+147        <activity
+147-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:135:9-140:57
+148            android:name="com.speed.provider.ui.activities.ShowProfile"
+148-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:136:13-72
+149            android:label="@string/app_name"
+149-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:137:13-45
+150            android:screenOrientation="portrait"
+150-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:138:13-49
+151            android:theme="@style/AppTheme.NoActionBar"
+151-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:139:13-56
+152            android:windowSoftInputMode="stateHidden" />
+152-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:140:13-54
+153        <activity
+153-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:141:9-146:58
+154            android:name="com.speed.provider.ui.activities.HistoryDetails"
+154-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:142:13-75
+155            android:label="@string/app_name"
+155-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:143:13-45
+156            android:screenOrientation="portrait"
+156-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:144:13-49
+157            android:theme="@style/AppTheme.NoActionBar"
+157-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:145:13-56
+158            android:windowSoftInputMode="adjustResize" />
+158-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:146:13-55
+159        <activity
+159-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:147:9-150:52
+160            android:name="com.speed.provider.ui.activities.HistoryActivity"
+160-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:148:13-76
+161            android:label="History"
+161-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:149:13-36
+162            android:screenOrientation="portrait" />
+162-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:150:13-49
+163        <activity
+163-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:151:9-154:57
+164            android:name="com.speed.provider.ui.activities.CouponActivity"
+164-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:152:13-75
+165            android:label="Coupon"
+165-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:153:13-35
+166            android:windowSoftInputMode="stateHidden" />
+166-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:154:13-54
+167        <activity
+167-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:155:9-160:58
+168            android:name="com.speed.provider.ui.activities.login.ChangePassword"
+168-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:156:13-81
+169            android:label="@string/app_name"
+169-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:157:13-45
+170            android:screenOrientation="portrait"
+170-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:158:13-49
+171            android:theme="@style/AppTheme.NoActionBar"
+171-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:159:13-56
+172            android:windowSoftInputMode="adjustResize" />
+172-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:160:13-55
+173        <activity
+173-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:161:9-166:58
+174            android:name="com.speed.provider.ui.activities.CustomGooglePlacesSearch"
+174-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:162:13-85
+175            android:label="@string/app_name"
+175-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:163:13-45
+176            android:screenOrientation="portrait"
+176-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:164:13-49
+177            android:theme="@style/AppTheme.NoActionBar"
+177-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:165:13-56
+178            android:windowSoftInputMode="adjustResize" />
+178-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:166:13-55
+179
+180        <service android:name="com.speed.provider.fcm.FCMService" >
+180-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:168:9-172:19
+180-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:168:18-66
+181            <intent-filter>
+181-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:169:13-171:29
+182                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+182-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:17-78
+182-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:25-75
+183            </intent-filter>
+184        </service>
+185
+186        <meta-data
+186-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:173:9-175:71
+187            android:name="com.google.firebase.messaging.default_notification_channel_id"
+187-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:174:13-89
+188            android:value="@string/default_notification_channel_id" />
+188-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:175:13-68
+189
+190        <receiver
+190-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:177:9-179:39
+191            android:name="com.speed.provider.fcm.MyBroadcastReceiver"
+191-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:178:13-70
+192            android:exported="true" />
+192-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:179:13-36
+193
+194        <meta-data
+194-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:181:9-183:48
+195            android:name="com.facebook.accountkit.ApplicationName"
+195-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:182:13-67
+196            android:value="@string/app_name" />
+196-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:183:13-45
+197        <meta-data
+197-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:186:9-188:55
+198            android:name="com.facebook.sdk.ApplicationId"
+198-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:187:13-58
+199            android:value="@string/facebook_app_id" />
+199-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:188:13-52
+200
+201        <activity
+201-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:190:9-193:48
+202            android:name="com.facebook.FacebookActivity"
+202-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:191:13-57
+203            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+203-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:192:13-96
+204            android:label="@string/app_name"
+204-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:193:13-45
+205            android:theme="@style/com_facebook_activity_theme" />
+205-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:32:13-63
+206        <activity
+206-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:194:9-206:20
+207            android:name="com.facebook.CustomTabActivity"
+207-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:195:13-58
+208            android:exported="true" >
+208-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:196:13-36
+209            <intent-filter>
+209-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:197:13-205:29
+210                <action android:name="android.intent.action.VIEW" />
+210-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
+210-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
+211
+212                <category android:name="android.intent.category.DEFAULT" />
+212-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
+212-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
+213                <category android:name="android.intent.category.BROWSABLE" />
+213-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
+213-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
+214
+215                <data android:scheme="@string/fb_login_protocol_scheme" />
+215-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
+215-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
+216            </intent-filter>
+217        </activity>
+218        <activity
+218-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:209:9-213:59
+219            android:name="com.speed.provider.ui.activities.SosCallActivity"
+219-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:210:13-76
+220            android:hardwareAccelerated="false"
+220-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:211:13-48
+221            android:screenOrientation="portrait"
+221-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:212:13-49
+222            android:theme="@style/AppTheme.NoActionBar" />
+222-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:213:13-56
+223        <activity
+223-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:214:9-218:59
+224            android:name="com.speed.provider.ui.activities.ComplaintsAcivity"
+224-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:215:13-78
+225            android:hardwareAccelerated="false"
+225-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:216:13-48
+226            android:screenOrientation="portrait"
+226-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:217:13-49
+227            android:theme="@style/AppTheme.NoActionBar" />
+227-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:218:13-56
+228        <activity
+228-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:219:9-222:59
+229            android:name="com.speed.provider.ui.activities.LegalActivity"
+229-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:220:13-74
+230            android:hardwareAccelerated="false"
+230-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:221:13-48
+231            android:theme="@style/AppTheme.NoActionBar" />
+231-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:222:13-56
+232        <activity
+232-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:223:9-227:59
+233            android:name="com.speed.provider.ui.activities.TermsOfUseActivity"
+233-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:224:13-79
+234            android:hardwareAccelerated="false"
+234-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:225:13-48
+235            android:screenOrientation="portrait"
+235-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:226:13-49
+236            android:theme="@style/AppTheme.NoActionBar" />
+236-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:227:13-56
+237        <activity
+237-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:228:9-232:59
+238            android:name="com.speed.provider.ui.activities.PrivacyPolicyActivity"
+238-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:229:13-82
+239            android:hardwareAccelerated="false"
+239-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:230:13-48
+240            android:screenOrientation="portrait"
+240-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:231:13-49
+241            android:theme="@style/AppTheme.NoActionBar" />
+241-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:232:13-56
+242        <activity
+242-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:233:9-237:59
+243            android:name="com.speed.provider.ui.activities.UpdateProfile"
+243-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:234:13-74
+244            android:hardwareAccelerated="false"
+244-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:235:13-48
+245            android:screenOrientation="portrait"
+245-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:236:13-49
+246            android:theme="@style/AppTheme.NoActionBar" />
+246-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:237:13-56
+247        <activity
+247-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:238:9-243:58
+248            android:name="com.speed.provider.ui.activities.WaitingForApproval"
+248-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:239:13-79
+249            android:label="@string/app_name"
+249-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:240:13-45
+250            android:screenOrientation="portrait"
+250-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:241:13-49
+251            android:theme="@style/AppTheme.NoActionBar"
+251-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:242:13-56
+252            android:windowSoftInputMode="adjustResize" />
+252-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:243:13-55
+253        <activity
+253-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:244:9-248:59
+254            android:name="com.speed.provider.ui.activities.FavouritePlaceSearch"
+254-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:245:13-81
+255            android:hardwareAccelerated="false"
+255-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:246:13-48
+256            android:screenOrientation="portrait"
+256-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:247:13-49
+257            android:theme="@style/AppTheme.NoActionBar" />
+257-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:248:13-56
+258        <activity
+258-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:249:9-253:59
+259            android:name="com.speed.provider.ui.activities.DocumentUpload"
+259-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:250:13-75
+260            android:configChanges="orientation|keyboardHidden"
+260-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:251:13-63
+261            android:screenOrientation="portrait"
+261-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:252:13-49
+262            android:theme="@style/AppTheme.NoActionBar" />
+262-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:253:13-56
+263        <activity
+263-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:256:9-260:59
+264            android:name="com.speed.provider.ui.activities.TrackActivity"
+264-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:257:13-74
+265            android:configChanges="orientation|keyboardHidden"
+265-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:258:13-63
+266            android:screenOrientation="portrait"
+266-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:259:13-49
+267            android:theme="@style/AppTheme.NoActionBar" />
+267-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:260:13-56
+268        <activity
+268-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:261:9-264:59
+269            android:name="com.speed.provider.ui.activities.Profile"
+269-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:262:13-68
+270            android:configChanges="orientation|keyboardHidden"
+270-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:263:13-63
+271            android:theme="@style/AppTheme.NoActionBar" />
+271-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:264:13-56
+272        <activity
+272-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:265:9-269:59
+273            android:name="com.speed.provider.ui.activities.EarningActivity"
+273-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:266:13-76
+274            android:configChanges="orientation|keyboardHidden"
+274-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:267:13-63
+275            android:screenOrientation="portrait"
+275-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:268:13-49
+276            android:theme="@style/AppTheme.NoActionBar" />
+276-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:269:13-56
+277
+278        <provider
+279            android:name="androidx.core.content.FileProvider"
+279-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:272:13-62
+280            android:authorities="com.speed.provider.provider"
+280-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:273:13-60
+281            android:exported="false"
+281-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:274:13-37
+282            android:grantUriPermissions="true" >
+282-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:275:13-47
+283            <meta-data
+283-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:276:13-278:54
+284                android:name="android.support.FILE_PROVIDER_PATHS"
+284-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:277:17-67
+285                android:resource="@xml/file_paths" />
+285-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:278:17-51
+286        </provider>
+287
+288        <activity
+288-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:12:9-15:58
+289            android:name="com.stripe.android.view.AddSourceActivity"
+289-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:13:13-69
+290            android:theme="@style/StripeDefaultTheme"
+290-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:14:13-54
+291            android:windowSoftInputMode="stateVisible" />
+291-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:15:13-55
+292        <activity
+292-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:16:9-18:57
+293            android:name="com.stripe.android.view.PaymentMethodsActivity"
+293-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:17:13-74
+294            android:theme="@style/StripeDefaultTheme" />
+294-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:18:13-54
+295        <activity
+295-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:19:9-21:57
+296            android:name="com.stripe.android.view.PaymentFlowActivity"
+296-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:20:13-71
+297            android:theme="@style/StripeDefaultTheme" />
+297-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:21:13-54
+298        <activity
+298-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:22:9-24:57
+299            android:name="com.stripe.android.view.AuthWebViewActivity"
+299-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:23:13-71
+300            android:theme="@style/StripeDefaultTheme" />
+300-->[com.stripe:stripe-android:9.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\34b5655a45ed2a98a0c7c0fecdb3788d\jetified-stripe-android-9.0.1\AndroidManifest.xml:24:13-54
+301        <activity
+301-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:17:9-20:57
+302            android:name="com.vincent.filepicker.activity.ImagePickActivity"
+302-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:18:13-77
+303            android:screenOrientation="portrait"
+303-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:19:13-49
+304            android:theme="@style/vw_FilePickerTheme" />
+304-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:20:13-54
+305        <activity
+305-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:21:9-25:57
+306            android:name="com.vincent.filepicker.activity.ImageBrowserActivity"
+306-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:22:13-80
+307            android:hardwareAccelerated="false"
+307-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:23:13-48
+308            android:screenOrientation="portrait"
+308-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:24:13-49
+309            android:theme="@style/vw_FilePickerTheme" />
+309-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:25:13-54
+310        <activity
+310-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:26:9-29:57
+311            android:name="com.vincent.filepicker.activity.VideoPickActivity"
+311-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:27:13-77
+312            android:screenOrientation="portrait"
+312-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:28:13-49
+313            android:theme="@style/vw_FilePickerTheme" />
+313-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:29:13-54
+314        <activity
+314-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:30:9-33:57
+315            android:name="com.vincent.filepicker.activity.AudioPickActivity"
+315-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:31:13-77
+316            android:screenOrientation="portrait"
+316-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:32:13-49
+317            android:theme="@style/vw_FilePickerTheme" />
+317-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:33:13-54
+318        <activity
+318-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:34:9-37:57
+319            android:name="com.vincent.filepicker.activity.NormalFilePickActivity"
+319-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:35:13-82
+320            android:screenOrientation="portrait"
+320-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:36:13-49
+321            android:theme="@style/vw_FilePickerTheme" />
+321-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\058fa85a89f6c5187cc0a2d0facb5114\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:37:13-54
+322        <activity
+322-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+323            android:name="com.karumi.dexter.DexterActivity"
+323-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
+324            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+324-->[com.karumi:dexter:6.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4e535b1724b6e18b954211ba365399a8\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
+325
+326        <service
+326-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:13:9-19:19
+327            android:name="com.google.firebase.components.ComponentDiscoveryService"
+327-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:14:13-84
+328            android:directBootAware="true"
+328-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+329            android:exported="false" >
+329-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:15:13-37
+330            <meta-data
+330-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
+331                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+331-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
+332                android:value="com.google.firebase.components.ComponentRegistrar" />
+332-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bd2d6c9644dd575c384503f77154af88\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
+333            <meta-data
+333-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+334                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+334-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+335                android:value="com.google.firebase.components.ComponentRegistrar" />
+335-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+336            <meta-data
+336-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+337                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+337-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+338                android:value="com.google.firebase.components.ComponentRegistrar" />
+338-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+339            <meta-data
+339-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+340                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+340-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+341                android:value="com.google.firebase.components.ComponentRegistrar" />
+341-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\5019e47da7d7fdc658df67774e87edcd\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+342            <meta-data
+342-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+343                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+343-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+344                android:value="com.google.firebase.components.ComponentRegistrar" />
+344-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\275050c0a8da173be136bd88c4a58dd9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+345            <meta-data
+345-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+346                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+346-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+347                android:value="com.google.firebase.components.ComponentRegistrar" />
+347-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\c3ecf707debc0f1553f9d236b1ecfdb3\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+348        </service>
+349
+350        <activity
+350-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:12:9-16:66
+351            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+351-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:13:13-86
+352            android:exported="false"
+352-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:14:13-37
+353            android:label=""
+353-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:15:13-29
+354            android:theme="@style/EasyPermissions.Transparent" />
+354-->[pub.devrel:easypermissions:0.3.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\0b66c39afe31a5852e85f78f03440430\jetified-easypermissions-0.3.0\AndroidManifest.xml:16:13-63
+355        <activity android:name="com.facebook.CustomTabMainActivity" />
+355-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:9-71
+355-->[com.facebook.android:facebook-common:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\15896f97199f9b78a5cf70ad9f724f15\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:19-68
+356        <activity
+356-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+357            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+357-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+358            android:excludeFromRecents="true"
+358-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+360-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+361        <!--
+362            Service handling Google Sign-In user revocation. For apps that do not integrate with
+363            Google Sign-In, this service will never be started.
+364        -->
+365        <service
+365-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+366            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+366-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+367            android:exported="true"
+367-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+368            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+368-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+369            android:visibleToInstantApps="true" />
+369-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\efdcd886b963e4320e6a3293b1cb3b0a\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+370
+371        <activity
+371-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+372            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+372-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+373            android:excludeFromRecents="true"
+373-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+374            android:exported="true"
+374-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+375            android:launchMode="singleTask"
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+376            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+376-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+377            <intent-filter>
+377-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+378                <action android:name="android.intent.action.VIEW" />
+378-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
+378-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
+379
+380                <category android:name="android.intent.category.DEFAULT" />
+380-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
+380-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
+381                <category android:name="android.intent.category.BROWSABLE" />
+381-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
+381-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
+382
+383                <data
+383-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
+384                    android:host="firebase.auth"
+385                    android:path="/"
+386                    android:scheme="genericidp" />
+386-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
+387            </intent-filter>
+388        </activity>
+389        <activity
+389-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+390            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+390-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+391            android:excludeFromRecents="true"
+391-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+392            android:exported="true"
+392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+393            android:launchMode="singleTask"
+393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+394            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+394-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+395            <intent-filter>
+395-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+396                <action android:name="android.intent.action.VIEW" />
+396-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:17-69
+396-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:198:25-66
+397
+398                <category android:name="android.intent.category.DEFAULT" />
+398-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
+398-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
+399                <category android:name="android.intent.category.BROWSABLE" />
+399-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:17-78
+399-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:201:27-75
+400
+401                <data
+401-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:17-204:55
+402                    android:host="firebase.auth"
+403                    android:path="/"
+404                    android:scheme="recaptcha" />
+404-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:203:23-72
+405            </intent-filter>
+406        </activity>
+407
+408        <service
+408-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+409            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+409-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+410            android:enabled="true"
+410-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+411            android:exported="false" >
+411-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+412            <intent-filter>
+412-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+413                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+413-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+413-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\4dfd64d5a446fa02de8285e3a1293dee\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+414
+415                <category android:name="android.intent.category.DEFAULT" />
+415-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:17-76
+415-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:62:27-73
+416            </intent-filter>
+417        </service>
+418
+419        <activity
+419-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+420            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+420-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+421            android:exported="false"
+421-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+422            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+422-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\3850eb60c64517e2aeddff070133fcaf\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+423
+424        <meta-data
+424-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:12:9-14:69
+425            android:name="com.google.android.gms.version"
+425-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:13:13-58
+426            android:value="@integer/google_play_services_version" />
+426-->[com.google.maps.android:android-maps-utils:0.6.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\94b38761ac86f4f39a3be8687d400303\jetified-android-maps-utils-0.6.2\AndroidManifest.xml:14:13-66
+427
+428        <receiver
+428-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+429            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+429-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+430            android:exported="true"
+430-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+431            android:permission="com.google.android.c2dm.permission.SEND" >
+431-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+432            <intent-filter>
+432-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+433                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+433-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+433-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+434            </intent-filter>
+435        </receiver>
+436        <!--
+437             FirebaseMessagingService performs security checks at runtime,
+438             but set to not exported to explicitly avoid allowing another app to call it.
+439        -->
+440        <service
+440-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+441            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+441-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+442            android:directBootAware="true"
+442-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+443            android:exported="false" >
+443-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\83ec65fc998552346bef965cc4b7eff0\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+444            <intent-filter android:priority="-500" >
+444-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:169:13-171:29
+445                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+445-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:17-78
+445-->E:\Projets\Speed-Provider\app\src\main\AndroidManifest.xml:170:25-75
+446            </intent-filter>
+447        </service>
+448
+449        <provider
+449-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+450            android:name="com.squareup.picasso.PicassoProvider"
+450-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+451            android:authorities="com.speed.provider.com.squareup.picasso"
+451-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+452            android:exported="false" />
+452-->[com.squareup.picasso:picasso:2.71828] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\564b39480d26d6c6fa47eafe28c9e019\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+453        <provider
+453-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+454            android:name="com.google.firebase.provider.FirebaseInitProvider"
+454-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+455            android:authorities="com.speed.provider.firebaseinitprovider"
+455-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+456            android:directBootAware="true"
+456-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+457            android:exported="false"
+457-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+458            android:initOrder="100" />
+458-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\19512d9973300473331540f50e4a2ad8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+459
+460        <receiver
+460-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+461            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+461-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+462            android:enabled="true"
+462-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+463            android:exported="false" >
+463-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+464        </receiver>
+465
+466        <service
+466-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+467            android:name="com.google.android.gms.measurement.AppMeasurementService"
+467-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+468            android:enabled="true"
+468-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+469            android:exported="false" />
+469-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+470        <service
+470-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+471            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+471-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+472            android:enabled="true"
+472-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+473            android:exported="false"
+473-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+474            android:permission="android.permission.BIND_JOB_SERVICE" />
+474-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\9cfadcd75a754f8700aff801a6b60cd6\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+475        <!--
+476         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+477         with the application context. This config is merged in with the host app's manifest,
+478         but there can only be one provider with the same authority activated at any given
+479         point; so if the end user has two or more different apps that use Facebook SDK, only the
+480         first one will be able to use the provider. To work around this problem, we use the
+481         following placeholder in the authority to identify each host application as if it was
+482         a completely different provider.
+483        -->
+484        <provider
+484-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:39:9-42:40
+485            android:name="com.facebook.internal.FacebookInitProvider"
+485-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:40:13-70
+486            android:authorities="com.speed.provider.FacebookInitProvider"
+486-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:41:13-72
+487            android:exported="false" />
+487-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:42:13-37
+488
+489        <receiver
+489-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:44:9-50:20
+490            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+490-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:45:13-86
+491            android:exported="false" >
+491-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:46:13-37
+492            <intent-filter>
+492-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:47:13-49:29
+493                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+493-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:17-95
+493-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:25-92
+494            </intent-filter>
+495        </receiver>
+496        <receiver
+496-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:51:9-58:20
+497            android:name="com.facebook.CampaignTrackingReceiver"
+497-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:52:13-65
+498            android:exported="true"
+498-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:53:13-36
+499            android:permission="android.permission.INSTALL_PACKAGES" >
+499-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:54:13-69
+500            <intent-filter>
+500-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:55:13-57:29
+501                <action android:name="com.android.vending.INSTALL_REFERRER" />
+501-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:17-79
+501-->[com.facebook.android:facebook-core:5.11.2] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\d13595bd87576fb8b759a95f00154bec\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:25-76
+502            </intent-filter>
+503        </receiver>
+504
+505        <service
+505-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+506            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+506-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+507            android:exported="false" >
+507-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+508            <meta-data
+508-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+509                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+509-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+510                android:value="cct" />
+510-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\bf67591e579fa0861b1e861510d227a3\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+511        </service>
+512        <service
+512-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+513            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+513-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+514            android:exported="false"
+514-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+515            android:permission="android.permission.BIND_JOB_SERVICE" >
+515-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+516        </service>
+517
+518        <receiver
+518-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+519            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+519-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+520            android:exported="false" />
+520-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\mhmou\.gradle\caches\transforms-2\files-2.1\48566d4169a73691b68288fcf8cf5fd3\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+521    </application>
+522
+523</manifest>
