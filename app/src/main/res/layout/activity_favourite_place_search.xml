@@ -79,7 +79,7 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/montserrat_medium"
                         android:paddingStart="@dimen/_5sdp"
-                        android:text="Home Address"
+                        android:text="@string/home_address"
                         android:textSize="14dp" />
 
                     <com.speed.provider.utills.MyEditText

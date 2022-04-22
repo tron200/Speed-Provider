@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/tools"
 
     android:background="@color/white"
     android:orientation="vertical">
@@ -48,7 +47,8 @@
             android:layout_gravity="center"
             android:layout_marginStart="10dp"
             android:padding="5dp"
-            android:src="@drawable/ic_back" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <com.speed.provider.utills.MyBoldTextView
             android:layout_width="match_parent"
@@ -89,8 +89,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            card_view:cardCornerRadius="2dp"
-            card_view:contentPadding="10dp">
+            app:cardCornerRadius="2dp"
+            app:contentPadding="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -122,14 +122,14 @@
 
 
                 <Button
-                    android:stateListAnimator="@null"
-                    android:elevation="10dp"
                     android:id="@+id/addAccountDetailsBtn"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_25sdp"
+                    android:layout_height="27dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/round_shape"
+                    android:elevation="10dp"
+                    android:stateListAnimator="@null"
                     android:text="@string/withdraw"
                     android:textAllCaps="false"
                     android:textColor="@color/white" />
@@ -164,8 +164,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_5sdp"
             android:background="@color/colorPrimary"
-            card_view:cardCornerRadius="2dp"
-            card_view:contentPadding="1dp">
+            app:cardCornerRadius="2dp"
+            app:contentPadding="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"

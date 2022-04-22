@@ -28,7 +28,7 @@
             android:layout_height="@dimen/_35sdp"
             android:layout_marginEnd="@dimen/_5sdp"
             android:background="@drawable/round_shape"
-            android:text="Browse"
+            android:text="@string/browse"
             android:stateListAnimator="@null"
             android:elevation="10dp"
 

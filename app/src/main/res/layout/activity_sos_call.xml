@@ -66,7 +66,7 @@
             android:layout_marginStart="10dp"
             android:gravity="center_vertical"
 
-            android:text = "SOS Call"
+            android:text = "@string/sos_call"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 

@@ -33,7 +33,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat_semibold"
                 android:paddingStart="@dimen/_12sdp"
-                android:text="Phone Verification"
+                android:text="@string/phone_verification"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_25sdp" />
 
@@ -45,7 +45,7 @@
                 android:paddingStart="@dimen/_12sdp"
                 android:paddingTop="@dimen/_5sdp"
                 android:paddingBottom="@dimen/_10sdp"
-                android:text="Enter your OTP code here"
+                android:text="@string/enter_your_otp_code_here"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp" />
 

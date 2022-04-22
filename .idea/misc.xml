@@ -3,12 +3,74 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_change_password.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_chat_app_item_view.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_complaints.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_coupon.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_doc_upload.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_document_status.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_document_upload.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_edit_profile.xml" value="0.1585144927536232" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_face_book_login.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_favourite_place_search.xml" value="0.1585144927536232" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_full_image.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_google_login.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_history.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_history_details.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_intro.xml" value="0.1585144927536232" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_legal.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_login.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_main.xml" value="0.1585144927536232" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_notification_tab.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_offline.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_otp_verification.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_otp_verify_forget_password.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_profile.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_show_profile.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_sign_up.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_sos_call.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_terms_of_use.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_track.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_update_profile.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_user_chat.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_user_review.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_waiting_for_approval.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_withdraw.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_withdraw_amount.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/add_bank_account_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/autocomplete_row.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/bank_details_popup.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/cancel_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/coupon_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/custom_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/custom_list_document_adapter.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/doc_list_adapter_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/doc_upload_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/document_update_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/earnings_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_earnings.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_help.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_map.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_on_going_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_past_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_soruce_and_destination.xml" value="0.1585144927536232" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_summary.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_your_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/image_show_layout.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/location_list_item_view.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/mobileverification.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/nav_header_main.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/new_history_list_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/notification_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/payment_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/review_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/upcoming_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/upload_document_popup.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/withdraw_item_adapter.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable-xxhdpi/rounded_button.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_footer.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_header.xml" value="0.2" />

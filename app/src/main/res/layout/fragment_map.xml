@@ -102,7 +102,7 @@
                 android:layout_toEndOf="@+id/icon_onoff"
                 android:paddingStart="@dimen/_8sdp"
                 android:paddingBottom="@dimen/_4sdp"
-                android:text="Go online to start accepting ride ."
+                android:text="@string/go_online_to_start_accepting_ride"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
@@ -209,7 +209,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_4sdp"
                                 android:maxLines="1"
-                                android:text="Earned"
+                                android:text="@string/earned"
                                 android:textColor="@color/recyclerview_item_text"
                                 android:textSize="@dimen/_14sdp" />
 
@@ -256,7 +256,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rides"
+                                android:text="@string/rides"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
 
@@ -289,7 +289,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Earning"
+                                android:text="@string/earning"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp"
 
@@ -325,7 +325,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Commision"
+                                android:text="@string/commission_"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
 
@@ -383,7 +383,7 @@
                         android:marqueeRepeatLimit="marquee_forever"
                         android:paddingStart="@dimen/_10sdp"
                         android:paddingTop="@dimen/_5sdp"
-                        android:text="Drop Address"
+                        android:text="@string/drop_address"
                         android:textSize="@dimen/_10sdp" />
 
                     <com.speed.provider.utills.ExpandableTextView
@@ -631,7 +631,7 @@
                                     android:fontFamily="@font/montserrat_medium"
                                     android:gravity="center"
                                     android:padding="@dimen/_7sdp"
-                                    android:text="Driver is on the way"
+                                    android:text="@string/driver_is_on_the_way"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/_12sdp" />
 
@@ -725,7 +725,7 @@
                             android:layout_gravity="bottom"
                             android:layout_weight="50"
                             android:gravity="bottom"
-                            android:text="User"
+                            android:text="@string/user"
                             android:textSize="@dimen/text_size_medium" />
 
                         <RatingBar
@@ -975,7 +975,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="PickUp Notes: "
+                        android:text="@string/pickup_notes"
                         android:textColor="@color/black"
                         android:textSize="@dimen/_10sdp" />
 
@@ -1013,7 +1013,7 @@
                             android:layout_weight="1"
                             android:background="@color/red"
                             android:padding="@dimen/button_padding"
-                            android:text="CANCEL"
+                            android:text="@string/cancel_"
                             android:textColor="@color/button_text_color"
 
                             android:textSize="@dimen/_14sdp" />
@@ -1330,7 +1330,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="50"
-                            android:text="Tax"
+                            android:text="@string/tax"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_14sdp"
                             android:textStyle="bold" />
@@ -1419,7 +1419,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:fontFamily="@font/montserrat_medium"
-                            android:text="Collect cash"
+                            android:text="@string/collect_cash"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_16sdp"
                             android:visibility="gone" />
@@ -1605,7 +1605,7 @@
                 android:paddingStart="@dimen/button_padding"
                 android:paddingEnd="@dimen/button_padding"
                 android:paddingBottom="@dimen/button_padding"
-                android:text="Go offline"
+                android:text="@string/go_offline"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp"
                 android:visibility="gone" />
@@ -1622,7 +1622,7 @@
                 android:paddingStart="@dimen/button_padding"
                 android:paddingEnd="@dimen/button_padding"
                 android:paddingBottom="@dimen/button_padding"
-                android:text="Go online"
+                android:text="@string/go_online"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp"
                 android:visibility="gone" />
@@ -1668,7 +1668,7 @@
                     android:layout_marginTop="@dimen/_20sdp"
                     android:gravity="center"
                     android:lineSpacingMultiplier="1.3"
-                    android:text="Server is temporarily unavailable.! Please check later."
+                    android:text="@string/server_is_temporarily_unavailable_please_check_later"
                     android:textSize="@dimen/_15sdp" />
 
 
@@ -1779,7 +1779,7 @@
                                 android:layout_gravity="top"
                                 android:layout_weight="50"
                                 android:gravity="start|center"
-                                android:text="User"
+                                android:text="@string/user"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_16sdp" />
 
@@ -1806,7 +1806,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Distance"
+                                android:text="@string/distance"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_14sdp" />
 
@@ -1827,7 +1827,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="@dimen/_5sdp"
-                        android:text="Schedule"
+                        android:text="@string/schedule"
                         android:textColor="@color/black"
                         android:textSize="@dimen/_12sdp"
                         android:visibility="gone" />
@@ -1852,7 +1852,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                    android:text="pick up"
+                                    android:text="@string/pick_up"
                                 android:textAllCaps="true"
                                 android:textColor="@color/recyclerview_item_text"
                                 android:textSize="@dimen/_10sdp" />
@@ -1886,7 +1886,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                    android:text="Drop off"
+                                    android:text="@string/drop_at"
                                 android:textAllCaps="true"
                                 android:textColor="@color/recyclerview_item_text"
                                 android:textSize="@dimen/_10sdp" />
@@ -1898,7 +1898,7 @@
                                 android:layout_marginTop="@dimen/_4sdp"
                                 android:maxLength="40"
                                 android:maxLines="1"
-                                android:text="My Home"
+                                android:text="@string/my_home"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_13sdp" />
                         </LinearLayout>
@@ -1932,7 +1932,7 @@
 
                             android:backgroundTint="@color/colorPrimary"
                             android:padding="@dimen/button_padding"
-                            android:text="Accept"
+                            android:text="@string/accept"
                             android:textColor="@color/button_text_color"
                             android:textSize="@dimen/_12sdp" />
                     </LinearLayout>
@@ -1958,7 +1958,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:gravity="center"
-                android:text="Your profile is not active"
+                android:text="@string/your_profile_is_not_active"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp" />
 
@@ -2027,7 +2027,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="Your feedback will help"
+                    android:text="@string/your_feedback_will_help"
                     android:textSize="@dimen/_12sdp" />
 
                 <TextView
@@ -2035,7 +2035,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="improve user experience"
+                    android:text="@string/improve_user_experience"
                     android:textSize="@dimen/_12sdp" />
 
                 <RatingBar
@@ -2086,7 +2086,7 @@
                     android:background="@drawable/round_shape"
 
                     android:padding="@dimen/_5sdp"
-                    android:text="Submit Review"
+                    android:text="@string/submit_review"
                     android:textColor="@color/button_text_color"
                     android:textSize="@dimen/_12sdp" />
 

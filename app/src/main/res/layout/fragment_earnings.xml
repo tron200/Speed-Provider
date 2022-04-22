@@ -229,7 +229,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_medium"
                         android:gravity="center"
-                        android:text="Commision"
+                        android:text="@string/commission_"
                         android:textColor="@color/black"
                         android:textSize="@dimen/_13sdp" />
 

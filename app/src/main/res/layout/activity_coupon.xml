@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/round_shape"
-                android:text="APPLY"
+                android:text="@string/apply"
                 android:textColor="@color/white" />
         </LinearLayout>
     </LinearLayout>

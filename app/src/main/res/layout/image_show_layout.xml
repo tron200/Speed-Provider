@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
 
-                android:text="Document Name :"
+                android:text="@string/document_name"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
 
-                android:text="Document Type :"
+                android:text="@string/document_type"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Expiry Date :"
+                android:text="@string/expiry_date"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -107,7 +107,7 @@
             android:layout_height="@dimen/_35sdp"
             android:layout_weight="1"
             android:background="@drawable/round_shape"
-            android:text="Confirm"
+            android:text="@string/confirm"
             android:layout_marginHorizontal="5dp"
             android:textColor="@color/white" />
 
@@ -119,7 +119,7 @@
             android:layout_marginHorizontal="5dp"
             android:background="@drawable/round_shape"
             android:backgroundTint="@color/red"
-            android:text="Another"
+            android:text="@string/another"
             android:textColor="@color/white" />
 
     </LinearLayout>

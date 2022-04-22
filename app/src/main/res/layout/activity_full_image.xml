@@ -55,7 +55,7 @@
             android:layout_marginStart="10dp"
             android:gravity="center_vertical"
 
-            android:text = "Image Title"
+            android:text = "@string/image_title"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 

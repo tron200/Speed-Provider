@@ -91,8 +91,11 @@
                     <com.speed.provider.utills.MyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_12sdp"
-                        android:text="Total Rides"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_12sdp"
+                        android:text="@string/total_rides"
                         android:textAllCaps="true"
                         android:textSize="@dimen/_15sdp" />
 
@@ -126,7 +129,10 @@
                     <com.speed.provider.utills.MyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_12sdp"
                         android:text="@string/revenue"
                         android:textSize="@dimen/_15sdp" />
 

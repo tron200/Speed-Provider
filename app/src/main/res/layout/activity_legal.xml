@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:text="Copyright"
+            android:text="@string/copyright"
             android:textColor="@color/black_text_color"
             android:textSize="@dimen/_15sdp" />
 
@@ -96,7 +96,7 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_15sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:text="Terms &amp; Conditions"
+            android:text="@string/terms_amp_conditions"
             android:textColor="@color/black_text_color"
             android:textSize="@dimen/_15sdp" />
 
@@ -108,7 +108,7 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_15sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:text="Privacy Policy"
+            android:text="@string/privacy_policy"
             android:textColor="@color/black_text_color"
             android:textSize="@dimen/_15sdp" />
 

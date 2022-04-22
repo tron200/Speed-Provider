@@ -93,7 +93,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/transparent"
-                            android:hint="Mobile number"
+                            android:hint="@string/mobile_number"
                             android:inputType="number"
                             android:paddingStart="@dimen/_8sdp"
                             android:textColorHint="@color/black"

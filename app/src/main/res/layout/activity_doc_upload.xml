@@ -353,7 +353,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/montserrat_medium"
                 android:gravity="center|start"
-                android:text="I certify my all document is correct."
+                android:text="@string/i_certify_my_all_document_is_correct"
                 android:textColor="@color/black" />
 
         </LinearLayout>

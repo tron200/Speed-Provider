@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Speed Driver"><!ENTITY trip "trip"><!ENTITY trips "rides"><!ENTITY tripscap "RIDES"><!ENTITY service "Service">]>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Speed Driver"><!ENTITY trip "رحله"><!ENTITY trips "رحلات"><!ENTITY tripscap "رحلات"><!ENTITY service "الخدمه">]>
 
 <resources>
     <string name="app_name">&appName;</string>
@@ -9,7 +9,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="we_will_send_you_a_one_time_sms_message_carrier_rate_may_apply">We will send you a One time SMS message carrier rate may apply</string>
+    <string name="we_will_send_you_a_one_time_sms_message_carrier_rate_may_apply">سوف نرسل لك في رساله قصيره سعرًا لمرة واحدة قد يتم تطبيقه</string>
 
     <string name="welcome_text">&appName; اهلا بك في دعم </string>
     <string name="call_support">اتصل بالدعم</string>
@@ -19,8 +19,8 @@
     <string name="cancel">رفض</string>
     <string name="total">مجموع</string>
 
-    <string name="online">You\'re online</string>
-    <string name="offline">You\'re offline</string>
+    <string name="online">انت متصل</string>
+    <string name="offline">انت غير متصل</string>
 
     <string name="trips">الرحلات</string>
     <string name="earning">الدخل</string>
@@ -61,7 +61,7 @@
 <!--    <string name="selected_payment_mode">الدفع النقدى</string>-->
 
 
-    <string name="cancel_ride">Cancel &service;</string>
+    <string name="cancel_ride">الغاء &service;</string>
 
 
     <!--Driver Accepted-->
@@ -100,15 +100,15 @@
 
     <!--Show Dailog-->
     <string name="connect_to_network">الاتصال بالشبكة أو إنهاء</string>
-    <string name="cencel_request">Are you sure you want to cancel the &service;?</string>
-    <string name="connect_to_wifi">Connect to WIFI</string>
+    <string name="cencel_request">هل انت متاكد انك تريد الغاء &service; ؟</string>
+    <string name="connect_to_wifi">اتصل بالانترنت</string>
     <string name="quit">إغلاق</string>
 
 
     <!-- Error Messages-->
     <string name="something_went_wrong">هناك خطأ ما</string>
     <string name="something_went_wrong_net">حدث خطأ ما ، يرجى التحقق من اتصال الإنترنت</string>
-    <string name="oops_connect_your_internet">Oops ! Connect your Internet</string>
+    <string name="oops_connect_your_internet">خطأ!! اتصل بالانترنت</string>
     <string name="server_down">غير قادر على الوصول إلى الخادم</string>
     <string name="please_try_again">حاول مرة اخرى</string>
     <string name="email_validation">أدخل معرف البريد الإلكتروني الخاص بك</string>
@@ -127,7 +127,7 @@
     <string name="not_vaild_coupon">الكوبون غير صالح أو قد انتهت صالحيتة</string>
     <string name="coupon_added">تم تطبيق الكوبون بنجاح</string>
     <string name="add_coupon_txt">اضافة كوبون خصم</string>
-    <string name="added_coupon">Coupon\'s applied by you</string>
+    <string name="added_coupon">تم اصافه الكوبون</string>
     <string name="already_in_use_coupon">لقد استخدمت كوبون الخصم بالفعل</string>
     <string name="expired_coupon">نأسف, انتهت صالحية كوبون الخصم</string>
     <string name="off">إيقاف</string>
@@ -152,7 +152,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="enter_mobile_no">أدخل رقم الجوال</string>
-    <string name="pin_location">Set pin location</string>
+    <string name="pin_location">تعين موقع</string>
 
     <!--Activity Help-->
 
@@ -190,39 +190,39 @@
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="no_services">لا توجد خدمات مخصصة</string>
-    <string name="commission">&service; charge</string>
+    <string name="commission">&service; ثمن</string>
     <string name="no_comments">لا يوجد تعليق متاح</string>
-    <string name="base_price">Base fare</string>
-    <string name="distance_price">Distance fare</string>
+    <string name="base_price">الاجرة الاساسية</string>
+    <string name="distance_price">أجرة المسافة</string>
     <string name="sos_confirm">هل أنت متأكد من أنك تريد متابعة مكالمة الطوارئ؟</string>
     <string name="invoice">فاتورة</string>
-    <string name="pick_up">Pick up Location </string>
-    <string name="drop_at">Drop Location </string>
+    <string name="pick_up">مكان الالتقاء</string>
+    <string name="drop_at">مكان الوجهه</string>
     <string name="reason_to_cancel">سبب الإلغاء</string>
-    <string name="booking_id_colon">Booking ID : </string>
-    <string name="booking_id">Booking ID</string>
+    <string name="booking_id_colon">رقم الحجز : </string>
+    <string name="booking_id">رقم الحجز</string>
 <!--    <string name="reason">السبب</string>-->
-    <string name="submit">Submit</string>
+    <string name="submit">تاكيد</string>
     <string name="summary">الملخص</string>
 <!--    <string name="total_rides">TOTAL NO OF &tripscap;</string>-->
     <string name="revenue">الإيرادات</string>
-    <string name="schedule_rides">SCHEDULED &tripscap;</string>
-    <string name="canceled_rides">CANCELLED &tripscap;</string>
+    <string name="schedule_rides"> محجوز&tripscap;</string>
+    <string name="canceled_rides">ملغاه &tripscap;</string>
     <string name="rides">الرحلات</string>
-    <string name="upcoming_rides">Upcoming &trips;</string>
+    <string name="upcoming_rides"> القادمه &trips;</string>
     <string name="no_address">لا يوجد عنوان متاح</string>
     <string name="first_name_no_number">الاسم لا يقبل الأرقام</string>
     <string name="password_size">يجب أن يكون حجم كلمة المرور 6 على الأقل</string>
     <string name="sorry_for_inconvinent">نأسف للإزعاج ، مساعدونا مشغولون الآن</string>
-    <string name="no_rides">No &trips; completed.</string>
+    <string name="no_rides">لا يوجد &trips; تمت.</string>
     <string name="rate_provider">كيف كانت تجربتك</string>
     <!--<string name="write_your_comment">اكتب تعليقك</string>-->
     <!--Flow status -->
-    <string name="tap_when_arrived">ARRIVED</string>
-    <string name="tap_when_pickedup">PICKEDUP</string>
-    <string name="tap_when_dropped">TAP WHEN DROPPED</string>
-    <string name="tap_when_paid">CONFIRM PAYMENT</string>
-    <string name="rate_user">SUBMIT</string>
+    <string name="tap_when_arrived">وصلت</string>
+    <string name="tap_when_pickedup">التقطت</string>
+    <string name="tap_when_dropped">اضغط حين الانزال</string>
+    <string name="tap_when_paid">تاكيد الدفع</string>
+    <string name="rate_user">تاكيد</string>
 
     <string name="waitingForApproval">يرجى السماح لنا يوم عمل واحد لمراجعة ملفك الشخصي.</string>
 
@@ -236,14 +236,14 @@
     <string name="bank_name">اسم البنك</string>
 <!--    <string name="add_bank_account">أضف حساب بنكي</string>-->
     <string name="bank_details">تفاصيل حسابك</string>
-    <string name="earned_money">Available Fund:</string>
+    <string name="earned_money">الأموال المتاحة:</string>
     <string name="status">الحالة</string>
     <string name="past_withdraw">السحب السابق</string>
     <string name="withdraw_amount">المبلغ المسحوب</string>
     <string name="select_account">حدد حساب</string>
     <string name="not_added_bank_details_yet">لم يتم العثور على تفاصيل البنك</string>
     <!-- Error Messages-->
-    <string name="start_ride">Start &trip;</string>
+    <string name="start_ride">ابدأ &trip;</string>
 
 
     <!--Approval status-->
@@ -267,7 +267,7 @@
     <string name="you_not_have_an_account">لا يمكنك إضافة أكثر من حساب بنكي واحد</string>
     <string name="fifteen_days">سنقوم بمعالجة المبلغ الخاص بك في 15 يوما</string>
     <!--Offline Activity -->
-    <string name="go_online">GO ONLINE</string>
+    <string name="go_online">اتصل بالانترنت</string>
 
     <string name="date">التاريخ</string>
     <string name="time">التوقيت</string>
@@ -277,8 +277,8 @@
     <string name="documents">مستندات</string>
     <string name="edit_profile">تعديل الملف الشخصى</string>
     <string name="you_are_on_the_way">أنت في الطريق</string>
-    <string name="you_have_to_reach_picked_up">You have to reach pick up</string>
-    <string name="on_the_way_of_drop_off">On the way of drop off</string>
+    <string name="you_have_to_reach_picked_up">عليك أن تصل لنقطه الالتقاط</string>
+    <string name="on_the_way_of_drop_off">في الطريق للانزال</string>
 
     <string name="change_language">غير اللغة</string>
     <string name="english">الإنجليزية</string>
@@ -312,7 +312,7 @@
     <string name="upload_now">تحميل الآن</string>
     <string name="update_name">تحديث الاسم</string>
     <string name="update">تحديث</string>
-    <string name="ok">OK</string>
+    <string name="ok">حسنا</string>
 <!--    <string name="browse">تصفح</string>-->
 <!--    <string name="i_certify_my_all_document_is_correct">أشهد أن جميع المستندات صحيحة.</string>-->
     <string name="add_account">إضافة حساب</string>
@@ -367,6 +367,55 @@
     <string name="you_have_no_on_going_rides">ليس لديك رحلات قادمه</string>
     <string name="payment_methods">طرق الدفع</string>
     <string name="secure_passwords">الباسورد الامن هو الذي يكون مكون من 8 حروف ويحتوي علي ارقام ورموز.</string>
+    <string name="complaints">شكاوي</string>
+    <string name="complaint">الشكوي</string>
+    <string name="comment">تعليق</string>
+    <string name="save">حفظ</string>
+    <string name="apply">تطبيق</string>
+    <string name="i_certify_my_all_document_is_correct">أشهد أن كل المستندات الخاصة بي صحيحة.</string>
+    <string name="home_address">عنوان المنزل</string>
+    <string name="image_title">عنوان الصوره</string>
+    <string name="fare">الاجره</string>
+    <string name="copyright">حقوق النشر</string>
+    <string name="terms_amp_conditions">البنود و الظروف</string>
+    <string name="privacy_policy">سياسة خاصة</string>
+    <string name="no_notification_found">لا يوجد اشعارات</string>
+    <string name="already_have_an_account">هل لديك حساب بالفعل ؟</string>
+    <string name="sos_call">نداء استغاثة</string>
+    <string name="type_a_message">اكتب رساله</string>
+    <string name="bank_account">حساب بنكي</string>
+    <string name="paypal_account">حساب باي بال</string>
+    <string name="enter_paypal_id">أدخل رمز باي بال</string>
+    <string name="cancel_">الغاء</string>
+    <string name="location">موقع</string>
+    <string name="location_detail">تفاصيل الموقع</string>
+    <string name="loading">نحميل...</string>
+    <string name="browse">تصفح</string>
+    <string name="commission_">عمولة</string>
+    <string name="earned">حصل علي</string>
+    <string name="pickup_notes">ملاحظات نقطه الالتقاط</string>
+    <string name="go_online_to_start_accepting_ride">اتصل بالانترنت لتبدأ بالموافقه علي الرحلات.</string>
+    <string name="drop_address">عنوان الوجهه</string>
+    <string name="driver_is_on_the_way">السائق في طريقه اليك</string>
+    <string name="user">المستخدم</string>
+    <string name="tax">الضريبه</string>
+    <string name="collect_cash">جمع النقود</string>
+    <string name="go_offline">اذهب في وضع عدم الاتصال</string>
+    <string name="server_is_temporarily_unavailable_please_check_later">الخادم غير متاح مؤقتا.! يرجى التحقق لاحقًا.</string>
+    <string name="distance">المسافه</string>
+    <string name="schedule">جدول</string>
+    <string name="my_home">المنزل</string>
+    <string name="accept">قبول</string>
+    <string name="your_profile_is_not_active">ملفك الشخصي غير نشط</string>
+    <string name="your_feedback_will_help">سوف تساعد ملاحظاتك</string>
+    <string name="improve_user_experience">تحسين تجربة المستخدم</string>
+    <string name="submit_review">إرسال المراجعة</string>
+    <string name="total_rides">مجموع الرحلات</string>
+    <string name="document_type">نوع الملف :</string>
+    <string name="expiry_date">تاريخ الانتهاء :</string>
+    <string name="confirm">تاكيد</string>
+    <string name="another">ثان</string>
+    <string name="mobile_number">رقم الهاتف</string>
 
 
 </resources>

@@ -47,7 +47,7 @@
             android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="@dimen/_5sdp"
             android:paddingEnd="@dimen/_5sdp"
-            android:text="Browse"
+            android:text="@string/browse"
             android:background="@drawable/round_shape"
             android:textColor="@color/white"
             android:textSize="@dimen/_10sdp" />

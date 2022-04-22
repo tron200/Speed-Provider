@@ -198,7 +198,7 @@
         android:layout_gravity="center"
         android:layout_margin="@dimen/_30sdp"
         android:background="@drawable/round_shape"
-        android:text="OK"
+        android:text="@string/ok"
         android:stateListAnimator="@null"
         android:elevation="10dp"
         android:textAllCaps="false"

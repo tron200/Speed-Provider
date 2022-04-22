@@ -329,9 +329,9 @@
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/round_shape"
-                android:text="@string/logout"
-                android:stateListAnimator="@null"
                 android:elevation="10dp"
+                android:stateListAnimator="@null"
+                android:text="@string/logout"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_16sdp" />
         </RelativeLayout>
