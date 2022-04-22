@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w270dp-h560dp-v13\\values-w270dp-h560dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kimox\\Downloads\\gradle-6.7.1-all\\gradle-6.7.1\\bin\\caches\\transforms-2\\files-2.1\\6dfb052ebf2833f543c25f708baaec8c\\jetified-datetimepicker-0.3.0\\res\\values-w270dp-h560dp-v13\\values-w270dp-h560dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,174,230",
+                        "endColumns": "63,54,55,54",
+                        "endOffsets": "114,169,225,280"
+                    }
+                }
+            ]
+        }
+    ]
+}

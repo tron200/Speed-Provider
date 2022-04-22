@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:icon="@drawable/ic_history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_earnings"
+            android:icon="@drawable/ic_earning"
+            android:title="@string/earnings" />
+
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_document"
+            android:title="@string/documents" />
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_summary"
+            android:title="@string/summary" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/nav_withdraw"
+            android:icon="@drawable/ic_withdraw"
+            android:title="@string/withdraw" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_complaint"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_referrals"
+            android:title="Referrals"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"
+            android:visible="false" />
+    </group>
+
+</menu>
