@@ -1,1266 +1,1226 @@
 [
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_image.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\placeholder_image.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_document_upload.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_document_upload.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\notification_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_complaint.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_complaint.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_full_image.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_full_image.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\destination_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_right.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_back_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_approved.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\approved.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_history.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_history.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_summary.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_summary.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickup.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\pickup.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logout.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_logout.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_referrals.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_referrals.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_map.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_map.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\slide_out.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_complaint.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_complaint.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_map.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_map.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_account.webp.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_account.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_details.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_history_details.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_web.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_web.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lanuage.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_lanuage.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_triangle.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\triangle.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_complete.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\complete.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_review_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\review_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newuser.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\newuser.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_otpverification.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\ic_otpverification.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_coupon_list_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\coupon_list_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_user_review.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_user_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-mdpi\\ic_user_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_grey_border_bg.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\grey_border_bg.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\destination_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sad.gif.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\sad.gif"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_web_url.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\web_url.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lanuage.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_lanuage.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_txt_size.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\txt_size.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_complaint_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\complaint_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrived.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\arrived.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_provider_marker.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_provider_marker.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickeddisable.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\pickeddisable.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logout.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_logout.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_gif.gif.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\loading_gif.gif"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call_support.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\call_support.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_referrals.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_referrals.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_send_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\ic_send_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_boder.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\edittext_boder.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_source_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\source_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\raw_style_json.json.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\raw\\style_json.json"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_upcoming_list_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\upcoming_list_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\ic_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\back.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_provider_marker.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_provider_marker.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_footer.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\border_footer.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_offline.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\offline.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_approved.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\approved.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_left_chat.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\left_chat.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bggradient.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\bggradient.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\raw_style_json.json.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\raw\\style_json.json"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_earnings_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\earnings_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_right.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-mdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_mail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sad.gif.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\sad.gif"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_review_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\review_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_provider_marker.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_provider_marker.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_waiting_for_approval.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_waiting_for_approval.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_right.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_activity_back_out.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\activity_back_out.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fb.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_fb.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_provider_marker.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-mdpi\\ic_provider_marker.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_summary_.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\summary_.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_offline_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\offline_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logout.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_logout.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat_app_item_view.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_chat_app_item_view.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_white.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\final_logo_white.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_current_loc.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\current_loc.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_complete.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\complete.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_complaint.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_complaint.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logout.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_logout.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_round_corner_primary_color_shape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-ldpi\\round_corner_primary_color_shape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_right.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_right.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_notification.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrived_select.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\arrived_select.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_triangle.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\triangle.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickup_select.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\pickup_select.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_menu_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\menu_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_referrals.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_referrals.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_user_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_document_upload.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_document_upload.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chevron_right_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_rightchat.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\rightchat.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_back_white.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\back_white.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\xml\\file_paths.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_activity_back_in.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\activity_back_in.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_documents.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_documents.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_right.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_provider_marker.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_provider_marker.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\slide_down.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginbg.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\loginbg.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arriveddisable.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\arriveddisable.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_mail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_mail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_shape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\round_shape.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_medium.ttf.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\font\\montserrat_medium.ttf"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coupon.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_coupon.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_back.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_button.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\nav_button.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\back_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_user_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\xml\\network_security_config.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lanuage.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_lanuage.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registration.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\box_registration.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_edit_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_map_current_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-hdpi\\ic_map_current_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sos.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\sos.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_soruce_and_destination.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_soruce_and_destination.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_shape_red.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\round_shape_red.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_horizontal_dashed_line.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\horizontal_dashed_line.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_withdraw.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_withdraw.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right_arrow_new.webp.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\right_arrow_new.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_map_current_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_map_current_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_past_trips.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_past_trips.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_provider_marker.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_provider_marker.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_bank_account_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\add_bank_account_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrived_select.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\arrived_select.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_comma.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\comma.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_credit_card.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\credit_card.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coupon_bg.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\coupon_bg.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_profile.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_upcoming_list_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\upcoming_list_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car_select.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\car_select.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_documents.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_documents.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_bank_account_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\add_bank_account_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\slide_out.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_web_url.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\web_url.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_activity_back_out.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\activity_back_out.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_waiting_for_approval.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_waiting_for_approval.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logout.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_logout.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_your_trips.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_your_trips.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_shadow.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\top_shadow.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_user_review.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_credit_card.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\credit_card.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call_support.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\call_support.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_withdraw_amount.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_withdraw_amount.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_support.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\chat_support.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_bank_details_popup.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\bank_details_popup.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_header.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\border_header.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\call.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rounded_button.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\rounded_button.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_history.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_history.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_outline_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_lock_outline_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy_policy.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forgot_lock.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\forgot_lock.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_profile.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_show_profile.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_user_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_user_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_history.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_history.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_summary_.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\summary_.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_complaint_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\complaint_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_face_book_login.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_face_book_login.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_delete_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_work.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\profile_work.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_menu_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\menu_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_withdraw.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_withdraw.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_svg.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\final_logo_svg.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_summary.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_summary.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pick_up_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\pick_up_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_txt_size.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\txt_size.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_round_corner_primary_color_shape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-ldpi\\round_corner_primary_color_shape.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fb.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_fb.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_semibold.ttf.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\font\\montserrat_semibold.ttf"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forgot_lock.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\forgot_lock.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back_white.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\back_white.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\placeholder.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_intro.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_web.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_web.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_documents.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_documents.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_text.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\cancel_text.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lanuage.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_lanuage.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_star.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\right.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_star.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_source_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\source_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lanuage.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_lanuage.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terms_of_use.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_terms_of_use.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pick_up_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\pick_up_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_web.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_launcher_web.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_menu_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\menu_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_cancel_dialog.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\cancel_dialog.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lanuage.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_lanuage.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp_verify_forget_password.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_otp_verify_forget_password.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_show_layout.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\image_show_layout.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_document_upload.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_document_upload.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\back_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_full_rounded_button.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\full_rounded_button.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_withdraw.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_withdraw.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_white.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\back_white.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_cancel_dialog.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\cancel_dialog.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_referrals.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_referrals.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_color_rect_shape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\red_color_rect_shape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_chat.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_user_chat.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_button.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\nav_button.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favourite_place_search.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_favourite_place_search.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_money1.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\money1.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat_app_item_view.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_chat_app_item_view.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_documents.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_documents.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_profile.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_mail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lanuage.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_lanuage.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_doc_upload_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\doc_upload_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginbg.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\loginbg.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_text.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\cancel_text.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_user_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\set_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registrationmirror.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\box_registrationmirror.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_details.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_history_details.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vertical_dashed_line.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\vertical_dashed_line.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_user_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_user_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_thumbnail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\pdf_thumbnail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_help.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favourite_place_search.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_favourite_place_search.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_user_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_user_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sos.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\sos.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_views.webp.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\login_views.webp"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sos.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\sos.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_middle_boxmirror.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\middle_boxmirror.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-hdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logout.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logout.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\back_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\final_logo.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sos.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\sos.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_offline.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_complaints.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_complaints.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_autocomplete_row.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\autocomplete_row.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\raw_alert_tone.mp3.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\raw\\alert_tone.mp3"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\menu_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_button_bg.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\cancel_button_bg.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_withdraw_item_adapter.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\withdraw_item_adapter.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_message.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\phone_message.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_login.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\box_login.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_user_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_user_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\placeholder.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\slide_in.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_document_status.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_document_status.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_help.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_filechooselogo.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\filechooselogo.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_user_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_user_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_history_list_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\new_history_list_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_comma.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\comma.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_star.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_star.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forget_gradient_background.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\forget_gradient_background.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_send_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\ic_send_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_location_list_item_view.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\location_list_item_view.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_color_rect_shape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\white_color_rect_shape.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\destination_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_clock.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\calendar_clock.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp_verify_forget_password.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_otp_verify_forget_password.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_corner_black.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\button_corner_black.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_money1.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\money1.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\anim\\slide_up.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_list_document_adapter.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\custom_list_document_adapter.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_provider_marker.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_provider_marker.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_legal.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_legal.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_referrals.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_referrals.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\slide_in.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_documents.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_documents.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_text_field.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\rounded_text_field.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_back.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_edit_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_earnings.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_earnings.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rounded_button.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\rounded_button.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dummy_user.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_dummy_user.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundshape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\roundshape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp_verification.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_otp_verification.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_web.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_launcher_web.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_google.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_mail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sos.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\sos.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_support.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\chat_support.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_work.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\profile_work.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_speed.gif.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\speed.gif"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_star.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call_new.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\call_new.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_color_rect_shape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\primary_color_rect_shape.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_image.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\placeholder_image.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_location_list_item_view.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\location_list_item_view.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_middle_box.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\middle_box.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_bank_details_popup.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\bank_details_popup.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_clock.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\calendar_clock.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_horizontal_dashed_line.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\horizontal_dashed_line.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_doc_list_adapter_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\doc_list_adapter_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_mobileverification.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\mobileverification.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_otpverification.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\ic_otpverification.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_gif.gif.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\loading_gif.gif"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\chat.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_filechooselogo.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\filechooselogo.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_document_status.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_document_status.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logout.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_logout.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\rectangle.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visa_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\visa_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_referrals.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_referrals.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_activity_back_in.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\activity_back_in.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_user_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xhdpi\\ic_user_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_profile.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_show_profile.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arriveddisable.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\arriveddisable.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickup_select.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\pickup_select.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_referrals.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_referrals.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundshape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\roundshape.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_complaint.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_complaint.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_profile.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back_white.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\back_white.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_user_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-hdpi\\ic_user_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\chat.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_color_rect_shape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\primary_color_rect_shape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_profile.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_image_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_document_upload.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_document_upload.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_rightchat.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\rightchat.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_thumbnail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\pdf_thumbnail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pick_up_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\pick_up_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_white_roundshape_background.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-ldpi\\white_roundshape_background.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_earnings.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_earnings.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_full_rounded_button.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\full_rounded_button.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_white.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\back_white.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_history.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_history.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_referrals.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_referrals.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_complaint.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_complaint.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_upload_document_popup.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\upload_document_popup.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp_verification.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_otp_verification.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_referrals.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_referrals.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_offline_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\offline_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\rectangle.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_track.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_track.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_user_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_mail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_mail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_documents.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_documents.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_mail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_mail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_earnings_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\earnings_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doc_upload.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_doc_upload.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lanuage.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lanuage.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_google_login.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_google_login.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_history.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_history.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_history.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_middle_boxmirror.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\middle_boxmirror.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_medium.ttf.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\font\\montserrat_medium.ttf"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_complaint.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_complaint.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_image_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_mobileverification.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\mobileverification.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_complaint.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_complaint.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sos.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\sos.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right_arrow_new.webp.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\right_arrow_new.webp"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_white.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\final_logo_white.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car_select.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\car_select.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_complaints.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_complaints.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_mail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_mail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_middle_box.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\middle_box.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call_new.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\call_new.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_login.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\box_login.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logout.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_logout.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newuser.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\newuser.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\bg.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_track.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_track.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_history_list_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\new_history_list_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_upload_document_popup.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\upload_document_popup.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_user_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickeddisable.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\pickeddisable.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_right.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-mdpi\\ic_right.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_white_roundshape_background.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-ldpi\\white_roundshape_background.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banned.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\banned.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_delete_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sos.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\sos.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy_policy.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_back_white.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\back_white.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sos.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\sos.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_right.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-hdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_coupon_list_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\coupon_list_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_footer.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\border_footer.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_documents.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_documents.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_history.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banned.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\banned.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sos_call.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_sos_call.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\anim\\slide_up.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_left_chat.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\left_chat.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_provider_marker.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-hdpi\\ic_provider_marker.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_complaint.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_complaint.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\destination_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_driver.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_driver.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_full_image.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_full_image.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logout.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_logout.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pick_up_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\pick_up_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_earning.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_earning.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_menu_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-v21\\menu_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_offline.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\offline.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrived.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\arrived.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\raw_alert_tone.mp3.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\raw\\alert_tone.mp3"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cross.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\cross.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history_.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\history_.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_history.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_history.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_documents.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_documents.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_boder.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\edittext_boder.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_documents.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_documents.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coupon.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_coupon.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_right.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_right.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_provider_marker.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_provider_marker.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sos.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\sos.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_withdraw.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_withdraw.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-mdpi\\ic_profile.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_star.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bggradient.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\bggradient.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_corner_black.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\button_corner_black.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lanuage.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_lanuage.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_doc_upload_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\doc_upload_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_svg.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\final_logo_svg.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registration.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\box_registration.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_mail.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_mail.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_complaint.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_complaint.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_referrals.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_referrals.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_speed.gif.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\speed.gif"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logout.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logout.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_document_update_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\document_update_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_semibold.ttf.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\font\\montserrat_semibold.ttf"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_history.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_history.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\call.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_star.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_star.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_chat.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_user_chat.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vertical_dashed_line.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\vertical_dashed_line.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_provider_marker.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_provider_marker.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_show_layout.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\image_show_layout.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_face_book_login.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_face_book_login.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_button_bg.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\cancel_button_bg.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_mail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_color_rect_shape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\white_color_rect_shape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cross.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\cross.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chevron_right_black_24dp.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_24dp.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_driver_accepted.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\driver_accepted.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\back_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_outline_black_24dp.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_lock_outline_black_24dp.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_payment_list_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\payment_list_item.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xhdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history_.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\history_.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\rounded_button.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_past_trips.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_past_trips.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registrationmirror.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\box_registrationmirror.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_user_location.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xhdpi\\ic_user_location.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_shape.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\round_shape.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_your_trips.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_your_trips.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_soruce_and_destination.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_soruce_and_destination.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_icon.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_back_icon.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_header.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\border_header.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_complaint.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_complaint.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_documents.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_documents.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_withdraw_amount.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_withdraw_amount.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_google.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_right.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_right.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_user_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\bg.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_offline.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_withdraw_item_adapter.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\withdraw_item_adapter.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doc_upload.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_doc_upload.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_password.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terms_of_use.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_terms_of_use.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_right.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_right.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\final_logo.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_default.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\img_default.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_text_field.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\rounded_text_field.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\notification_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_mail.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_mail.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_name.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_name.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visa_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\visa_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_document.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_document.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_account.webp.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_account.webp"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_shadow.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\top_shadow.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_current_loc.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\current_loc.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_legal.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_legal.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dummy_user.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\ic_dummy_user.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification_tab.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_notification_tab.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_default.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\img_default.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification_tab.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_notification_tab.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_payment_list_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\payment_list_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lanuage.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lanuage.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_going_trips.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\fragment_on_going_trips.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forget_gradient_background.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\forget_gradient_background.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_google_login.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_google_login.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_summary.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_summary.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_document.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_document.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thin.ttf.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\font\\montserrat_thin.ttf"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_views.webp.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\login_views.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_name.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\ic_name.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_shape_red.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\round_shape_red.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_driver_accepted.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\driver_accepted.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_document_update_item.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\document_update_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_summary.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_summary.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_message.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\phone_message.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\back_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\back_icon.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_history.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coupon_bg.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\coupon_bg.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_password.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-mdpi\\ic_password.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_history.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-hdpi\\ic_history.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_driver.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_driver.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\set_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_autocomplete_row.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\autocomplete_row.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable\\right.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pickup.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\pickup.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_going_trips.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\fragment_on_going_trips.xml"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_user_location.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_user_location.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sos.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\sos.png"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_list_document_adapter.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\custom_list_document_adapter.xml"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_grey_border_bg.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\grey_border_bg.xml"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_color_rect_shape.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\red_color_rect_shape.xml"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_icon.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-hdpi\\menu_icon.png"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_thin.ttf.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\font\\montserrat_thin.ttf"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sos_call.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_sos_call.xml"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_password.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-xhdpi\\ic_password.png"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_doc_list_adapter_item.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\doc_list_adapter_item.xml"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_earning.png.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable\\ic_earning.png"
+        "merged": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile.png.flat",
+        "source": "C:\\abdelrhman\\speed\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile.png"
     }
 ]

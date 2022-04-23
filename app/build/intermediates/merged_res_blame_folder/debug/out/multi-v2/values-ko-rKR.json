@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko-rKR\\values-ko-rKR.xml",
+            "outputFile": "C:\\abdelrhman\\speed\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko-rKR\\values-ko-rKR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mhmou\\.gradle\\caches\\transforms-2\\files-2.1\\dc8cd8c680c5e6d45cebedb2f09f34ea\\jetified-jiaozivideoplayer-7.0.5\\res\\values-ko-rKR\\values-ko-rKR.xml",
+                    "source": "C:\\Users\\kimox\\Downloads\\gradle-6.7.1-all\\gradle-6.7.1\\bin\\caches\\transforms-2\\files-2.1\\c1b86dc89906a0837e1081c7dc232f72\\jetified-jiaozivideoplayer-7.0.5\\res\\values-ko-rKR\\values-ko-rKR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
