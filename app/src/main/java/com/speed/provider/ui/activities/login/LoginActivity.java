@@ -390,7 +390,7 @@ public class LoginActivity extends AppCompatActivity {
                             if (!response.optString("currency").equalsIgnoreCase("") && response.optString("currency") != null)
                                 SharedHelper.putKey(getApplicationContext(), "currency", response.optString("currency"));
                             else
-                                SharedHelper.putKey(getApplicationContext(), "currency", "$");
+                                SharedHelper.putKey(getApplicationContext(), "currency", "AED");
                             getProfile();
                         },
                         error -> {

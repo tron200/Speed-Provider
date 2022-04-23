@@ -293,9 +293,9 @@ public class HistoryDetails extends AppCompatActivity {
                                 .placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(tripImg);
                         if (!response.optJSONObject(0).optString("payment").equalsIgnoreCase("null")) {
                             Log.e("History Details", "onResponse: Currency" + SharedHelper.getKey(context, "currency"));
-                            tripAmount.setText(SharedHelper.getKey(context, "currency") + "" + response.optJSONObject(0).optJSONObject("payment").optString("total"));
+                            tripAmount.setText( response.optJSONObject(0).optJSONObject("payment").optString("total") + "" + SharedHelper.getKey(context, "currency"));
                         } else {
-                            tripAmount.setText(SharedHelper.getKey(context, "currency") + "" + "0");
+                            tripAmount.setText("0" + " "+SharedHelper.getKey(context, "currency"));
                         }
                         String form;
                         if (tag.equalsIgnoreCase("past_trips")) {

@@ -248,7 +248,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener, Go
                                 if (!response.optString("currency").equalsIgnoreCase("") && response.optString("currency") != null)
                                     SharedHelper.putKey(getApplicationContext(), "currency", response.optString("currency"));
                                 else
-                                    SharedHelper.putKey(getApplicationContext(), "currency", "$");
+                                    SharedHelper.putKey(getApplicationContext(), "currency", "AED");
                                 getProfile();
                             },
                             error -> {

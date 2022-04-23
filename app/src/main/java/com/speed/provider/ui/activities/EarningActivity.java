@@ -193,7 +193,7 @@ public class EarningActivity extends AppCompatActivity {
 
                                     String strTotalPrice = Math.round(total_price) + "";
                                     String currency = SharedHelper.getKey(activity, "currency");
-                                    SharedHelper.putKey(activity, "totalearning", currency + strTotalPrice);
+                                    SharedHelper.putKey(activity, "totalearning",  strTotalPrice + currency);
                                     lblEarnings.setText(response.optJSONObject("rides_count").getString("overall")+" "+currency);
                                     lblCommision.setText(response.optJSONObject("rides_count").getString("commission")+" "+currency);
 

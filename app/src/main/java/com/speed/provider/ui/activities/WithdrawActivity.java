@@ -215,7 +215,7 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
             JSONArray jsonArray = jsonResponse.optJSONArray("data");
             try {
                 JSONObject jsonObject = jsonArray.getJSONObject(position);
-                holder.lblWithdrawAmount.setText(SharedHelper.getKey(getApplicationContext(), "currency") + jsonObject.optString("amount"));
+                holder.lblWithdrawAmount.setText(jsonObject.optString("amount") +" "+ SharedHelper.getKey(getApplicationContext(), "currency"));
                 String from = null;
                 try {
                     from = Utilities.getDateFormate(jsonObject.optString("created_at"));

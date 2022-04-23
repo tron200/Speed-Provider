@@ -529,7 +529,7 @@ public class DriverMapFragment extends Fragment implements
         if (earning != null && !earning.isEmpty() && !earning.equals("")) {
             txtTotalEarning.setText(earning);
         } else
-            txtTotalEarning.setText(SharedHelper.getKey(getActivity(), "currency") + " 0.00");
+            txtTotalEarning.setText("0.00 " +SharedHelper.getKey(getActivity(), "currency") );
         slide_down = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_down);
         slide_up = AnimationUtils.loadAnimation(getActivity(), R.anim.slide_up);
 
@@ -1134,7 +1134,7 @@ public class DriverMapFragment extends Fragment implements
                             tvCommision.setText(response.optString("commision"));
                             tvEarning.setText(response.optString("earnings"));
                             tvTrips.setText(response.optString("trips"));
-                            txtTotalEarning.setText(SharedHelper.getKey(getActivity(), "currency") + response.optString("earnings"));
+                            txtTotalEarning.setText(response.optString("earnings") + SharedHelper.getKey(getActivity(), "currency"));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -2188,13 +2188,13 @@ public class DriverMapFragment extends Fragment implements
         }
         try {
             txt04InvoiceId.setText(bookingId);
-            txt04BasePrice.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("fixed"));
-            txt04Distance.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("distance"));
-            txt04Tax.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("tax"));
-            txt04Total.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("total"));
+            txt04BasePrice.setText( statusResponse.getJSONObject("payment").optString("fixed")+ "" + SharedHelper.getKey(getActivity(), "currency"));
+            txt04Distance.setText( statusResponse.getJSONObject("payment").optString("distance") + "" + SharedHelper.getKey(getActivity(), "currency"));
+            txt04Tax.setText( statusResponse.getJSONObject("payment").optString("tax")+ ""+ SharedHelper.getKey(getActivity(), "currency") );
+            txt04Total.setText( statusResponse.getJSONObject("payment").optString("total")+ "" + SharedHelper.getKey(getActivity(), "currency"));
             txt04PaymentMode.setText(statusResponse.getString("payment_mode"));
-            txt04Commision.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("commision"));
-            txtTotal.setText(SharedHelper.getKey(getActivity(), "currency") + "" + statusResponse.getJSONObject("payment").optString("total"));
+            txt04Commision.setText(statusResponse.getJSONObject("payment").optString("commision") + "" + SharedHelper.getKey(getActivity(), "currency"));
+            txtTotal.setText( statusResponse.getJSONObject("payment").optString("total") + "" + SharedHelper.getKey(getActivity(), "currency") );
             if (statusResponse.getString("payment_mode").equals("CASH")) {
                 paymentTypeImg.setImageResource(R.drawable.money1);
                 btn_confirm_payment.setVisibility(View.VISIBLE);

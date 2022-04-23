@@ -72,12 +72,12 @@
         "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\review_item.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review.xml.flat",
-        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_user_review.xml"
-    },
-    {
         "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_otpverification.xml.flat",
         "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\drawable-v21\\ic_otpverification.xml"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_review.xml.flat",
+        "source": "E:\\Projets\\Speed-Provider\\app\\src\\main\\res\\layout\\activity_user_review.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-Provider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earning.png.flat",
