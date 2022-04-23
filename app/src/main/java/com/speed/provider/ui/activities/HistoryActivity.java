@@ -53,7 +53,7 @@ public class HistoryActivity extends AppCompatActivity {
 
     public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
         final int PAGE_COUNT = 2;
-        private String[] tabTitles = new String[]{"Past Rides", "Upcoming Rides"};
+        private String[] tabTitles = new String[]{getString(R.string.past_trips), getString(R.string.upcoming_rides)};
         private Context context;
 
         public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {

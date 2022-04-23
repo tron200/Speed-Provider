@@ -209,7 +209,7 @@
     <string name="schedule_rides"> محجوز&tripscap;</string>
     <string name="canceled_rides">ملغاه &tripscap;</string>
     <string name="rides">الرحلات</string>
-    <string name="upcoming_rides"> القادمه &trips;</string>
+    <string name="upcoming_rides"> الرحلات القادمه </string>
     <string name="no_address">لا يوجد عنوان متاح</string>
     <string name="first_name_no_number">الاسم لا يقبل الأرقام</string>
     <string name="password_size">يجب أن يكون حجم كلمة المرور 6 على الأقل</string>

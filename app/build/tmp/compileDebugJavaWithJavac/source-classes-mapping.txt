@@ -10,16 +10,6 @@ com/speed/provider/ui/activities/DocumentStatus.java
  com.speed.provider.ui.activities.DocumentStatus$PostAdapter$MyViewHolder
 com/speed/provider/ui/activities/login/GoogleLoginActivity.java
  com.speed.provider.ui.activities.login.GoogleLoginActivity
-com/speed/provider/ui/activities/DocumentStatus.java
- com.speed.provider.ui.activities.DocumentStatus
- com.speed.provider.ui.activities.DocumentStatus$1
- com.speed.provider.ui.activities.DocumentStatus$2
- com.speed.provider.ui.activities.DocumentStatus$3
- com.speed.provider.ui.activities.DocumentStatus$4
- com.speed.provider.ui.activities.DocumentStatus$PostAdapter
- com.speed.provider.ui.activities.DocumentStatus$PostAdapter$MyViewHolder
-com/speed/provider/utills/Utilities.java
- com.speed.provider.utills.Utilities
 com/speed/provider/helper/BitmapWorkerTask.java
  com.speed.provider.helper.BitmapWorkerTask
 com/speed/provider/helper/BitmapCompletion.java
@@ -145,16 +135,6 @@ com/speed/provider/ui/activities/login/ForgotPassword.java
  com.speed.provider.ui.activities.login.ForgotPassword$1
  com.speed.provider.ui.activities.login.ForgotPassword$2
  com.speed.provider.ui.activities.login.ForgotPassword$3
-com/speed/provider/ui/activities/DocUploadActivity.java
- com.speed.provider.ui.activities.DocUploadActivity
- com.speed.provider.ui.activities.DocUploadActivity$1
- com.speed.provider.ui.activities.DocUploadActivity$2
- com.speed.provider.ui.activities.DocUploadActivity$3
- com.speed.provider.ui.activities.DocUploadActivity$4
- com.speed.provider.ui.activities.DocUploadActivity$DocAdapter
- com.speed.provider.ui.activities.DocUploadActivity$DocAdapter$MyViewHolder
-com/speed/provider/listeners/ConnectionChangeListener.java
- com.speed.provider.listeners.ConnectionChangeListener
 com/speed/provider/ui/activities/WaitingForApproval.java
  com.speed.provider.ui.activities.WaitingForApproval
  com.speed.provider.ui.activities.WaitingForApproval$1
@@ -201,19 +181,6 @@ com/speed/provider/ui/activities/DocumentUpload.java
  com.speed.provider.ui.activities.DocumentUpload$2
 com/speed/provider/utills/MyCheckbox.java
  com.speed.provider.utills.MyCheckbox
-com/speed/provider/helper/AppHelper.java
- com.speed.provider.helper.AppHelper
-com/speed/provider/ui/activities/UserReview.java
- com.speed.provider.ui.activities.UserReview
- com.speed.provider.ui.activities.UserReview$1
- com.speed.provider.ui.activities.UserReview$2
- com.speed.provider.ui.activities.UserReview$PostAdapter
- com.speed.provider.ui.activities.UserReview$PostAdapter$MyViewHolder
-com/speed/provider/ui/activities/WithdrawActivity.java
- com.speed.provider.ui.activities.WithdrawActivity
- com.speed.provider.ui.activities.WithdrawActivity$1
- com.speed.provider.ui.activities.WithdrawActivity$WithdrawAdapter
- com.speed.provider.ui.activities.WithdrawActivity$WithdrawAdapter$MyViewHolder
 com/speed/provider/ui/activities/login/LoginActivity.java
  com.speed.provider.ui.activities.login.LoginActivity
  com.speed.provider.ui.activities.login.LoginActivity$1
@@ -274,15 +241,14 @@ com/speed/provider/ui/fragments/DriverMapFragment.java
  com.speed.provider.ui.fragments.DriverMapFragment$ParserTask
 com/speed/provider/fcm/FCMService.java
  com.speed.provider.fcm.FCMService
-com/speed/provider/ui/activities/MainActivity.java
- com.speed.provider.ui.activities.MainActivity
- com.speed.provider.ui.activities.MainActivity$1
- com.speed.provider.ui.activities.MainActivity$2
- com.speed.provider.ui.activities.MainActivity$3
- com.speed.provider.ui.activities.MainActivity$4
-com/speed/provider/ui/activities/HistoryActivity.java
- com.speed.provider.ui.activities.HistoryActivity
- com.speed.provider.ui.activities.HistoryActivity$SampleFragmentPagerAdapter
+com/speed/provider/ui/activities/TrackActivity.java
+ com.speed.provider.ui.activities.TrackActivity
+ com.speed.provider.ui.activities.TrackActivity$1
+ com.speed.provider.ui.activities.TrackActivity$2
+ com.speed.provider.ui.activities.TrackActivity$GeoWebChromeClient
+ com.speed.provider.ui.activities.TrackActivity$GeoWebViewClient
+com/speed/provider/utills/Utilities.java
+ com.speed.provider.utills.Utilities
 com/speed/provider/ui/fragments/Help.java
  com.speed.provider.ui.fragments.Help
  com.speed.provider.ui.fragments.Help$1
@@ -325,29 +291,6 @@ com/speed/provider/ui/activities/CouponActivity.java
  com.speed.provider.ui.activities.CouponActivity$1
 com/speed/provider/ClassLuxApp.java
  com.speed.provider.ClassLuxApp
-com/speed/provider/ui/activities/TrackActivity.java
- com.speed.provider.ui.activities.TrackActivity
- com.speed.provider.ui.activities.TrackActivity$1
- com.speed.provider.ui.activities.TrackActivity$2
- com.speed.provider.ui.activities.TrackActivity$GeoWebChromeClient
- com.speed.provider.ui.activities.TrackActivity$GeoWebViewClient
-com/speed/provider/ui/activities/SplashScreen.java
- com.speed.provider.ui.activities.SplashScreen
- com.speed.provider.ui.activities.SplashScreen$1
- com.speed.provider.ui.activities.SplashScreen$2
- com.speed.provider.ui.activities.SplashScreen$3
-com/speed/provider/models/ChatList.java
- com.speed.provider.models.ChatList
-com/speed/provider/models/WithdrawAmount.java
- com.speed.provider.models.WithdrawAmount
-com/speed/provider/utills/CustomTypefaceSpan.java
- com.speed.provider.utills.CustomTypefaceSpan
-com/speed/provider/ui/adapters/CouponListAdapter.java
- com.speed.provider.ui.adapters.CouponListAdapter
-com/speed/provider/utills/LocationTracking.java
- com.speed.provider.utills.LocationTracking
- com.speed.provider.utills.LocationTracking$LocationListener
- com.speed.provider.utills.LocationTracking$LocationListener$1
 com/speed/provider/Login.java
  com.speed.provider.Login
  com.speed.provider.Login$1
@@ -361,18 +304,6 @@ com/speed/provider/Login.java
  com.speed.provider.Login$8
  com.speed.provider.Login$9
  com.speed.provider.Login$RetrieveTokenTask
-com/speed/provider/ui/activities/login/GoogleLoginActivity.java
- com.speed.provider.ui.activities.login.GoogleLoginActivity
-com/speed/provider/ui/activities/login/ForgotPassword.java
- com.speed.provider.ui.activities.login.ForgotPassword
- com.speed.provider.ui.activities.login.ForgotPassword$1
- com.speed.provider.ui.activities.login.ForgotPassword$2
- com.speed.provider.ui.activities.login.ForgotPassword$3
-com/speed/provider/ui/activities/login/LoginActivity.java
- com.speed.provider.ui.activities.login.LoginActivity
- com.speed.provider.ui.activities.login.LoginActivity$1
- com.speed.provider.ui.activities.login.LoginActivity$2
- com.speed.provider.ui.activities.login.LoginActivity$3
 com/speed/provider/ui/activities/SplashScreen.java
  com.speed.provider.ui.activities.SplashScreen
  com.speed.provider.ui.activities.SplashScreen$1
@@ -394,11 +325,12 @@ com/speed/provider/helper/AppHelper.java
  com.speed.provider.helper.AppHelper
 com/speed/provider/listeners/ConnectionChangeListener.java
  com.speed.provider.listeners.ConnectionChangeListener
-com/speed/provider/utills/Utilities.java
- com.speed.provider.utills.Utilities
-com/speed/provider/ui/activities/TrackActivity.java
- com.speed.provider.ui.activities.TrackActivity
- com.speed.provider.ui.activities.TrackActivity$1
- com.speed.provider.ui.activities.TrackActivity$2
- com.speed.provider.ui.activities.TrackActivity$GeoWebChromeClient
- com.speed.provider.ui.activities.TrackActivity$GeoWebViewClient
+com/speed/provider/ui/activities/MainActivity.java
+ com.speed.provider.ui.activities.MainActivity
+ com.speed.provider.ui.activities.MainActivity$1
+ com.speed.provider.ui.activities.MainActivity$2
+ com.speed.provider.ui.activities.MainActivity$3
+ com.speed.provider.ui.activities.MainActivity$4
+com/speed/provider/ui/activities/HistoryActivity.java
+ com.speed.provider.ui.activities.HistoryActivity
+ com.speed.provider.ui.activities.HistoryActivity$SampleFragmentPagerAdapter
