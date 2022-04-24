@@ -244,11 +244,6 @@ public class MainActivity extends AppCompatActivity {
 
         Menu m = navigationView.getMenu();
 
-        for (int i = 0; i < m.size(); i++) {
-            MenuItem menuItem = m.getItem(i);
-            applyFontToMenuItem(menuItem);
-
-        }
         ActionBarDrawerToggle actionBarDrawerToggle = new
                 ActionBarDrawerToggle(this, drawer, toolbar,
                         R.string.navigation_drawer_open, R.string.navigation_drawer_close) {
@@ -270,13 +265,6 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
     }
 
-    private void applyFontToMenuItem(MenuItem mi) {
-        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/The-Sans-Plain.otf");
-        SpannableString mNewTitle = new SpannableString(mi.getTitle());
-        mNewTitle.setSpan(new CustomTypefaceSpan("", font), 0,
-                mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-        mi.setTitle(mNewTitle);
-    }
 
     @SuppressLint("SetTextI18n")
     private void loadNavHeader() {
