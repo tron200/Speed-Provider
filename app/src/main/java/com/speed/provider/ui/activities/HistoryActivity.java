@@ -27,15 +27,19 @@ public class HistoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_history);
+
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_history);
         viewPager = findViewById(R.id.viewpager);
-        backArrow = findViewById(R.id.backArrow);
+
         tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
         viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager(),

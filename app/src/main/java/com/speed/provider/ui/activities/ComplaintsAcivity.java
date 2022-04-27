@@ -52,17 +52,21 @@ public class ComplaintsAcivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_complaints);
+
+        ivBack = findViewById(R.id.ivBack);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            ivBack.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
 
-        setContentView(R.layout.activity_complaints);
         helper = new ConnectionHelper(ComplaintsAcivity.this);
         isInternet = helper.isConnectingToInternet();
-        ivBack = findViewById(R.id.ivBack);
         tvSubmit = findViewById(R.id.tvSubmit);
         spRegister = findViewById(R.id.spRegister);
         etComplaint = findViewById(R.id.etComplaint);

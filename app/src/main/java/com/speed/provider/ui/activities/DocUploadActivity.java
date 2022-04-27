@@ -28,6 +28,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -295,12 +296,12 @@ public class DocUploadActivity extends AppCompatActivity {
                 if (chkTerm.isChecked()) {
                     completeDocumentStatus();
                 } else {
-                    Toast.makeText(DocUploadActivity.this, "Please check document certify",
+                    Toast.makeText(DocUploadActivity.this, getString(R.string.check_doc_certify),
                             Toast.LENGTH_LONG).show();
-                    displayMessage("Please check document certify");
+                    displayMessage(getString(R.string.check_doc_certify));
                 }
             } else {
-                Toast.makeText(DocUploadActivity.this, "Upload all documents",
+                Toast.makeText(DocUploadActivity.this, getString(R.string.upload_all_document),
                         Toast.LENGTH_LONG).show();
                 displayMessage(DocUploadActivity.this.getString(R.string.upload_all_documents_and_check_term));
             }
@@ -368,8 +369,8 @@ public class DocUploadActivity extends AppCompatActivity {
 
         if (bmp == null) {
             CharSequence[] ch = {};
-            ch = new CharSequence[]{"Gallery", "Camera"};
-            builder.setTitle("Choose Image :").setItems(
+            ch = new CharSequence[]{getString(R.string.gallery), getString(R.string.camera)};
+            builder.setTitle(getString(R.string.choose_image)).setItems(
                     ch,
                     (dialog, which) -> {
                         // TODO Auto-generated method stub
@@ -383,7 +384,7 @@ public class DocUploadActivity extends AppCompatActivity {
                                         PackageManager.PERMISSION_GRANTED) {
                                     takePhoto();
                                 } else {
-                                    Toast.makeText(DocUploadActivity.this, "You have denied camera access permission.",
+                                    Toast.makeText(DocUploadActivity.this, getString(R.string.denied_camera_permission),
                                             Toast.LENGTH_LONG).show();
                                 }
                                 break;
@@ -392,8 +393,8 @@ public class DocUploadActivity extends AppCompatActivity {
                         }
                     });
         } else {
-            builder.setTitle("Choose Image :").setItems(
-                    new CharSequence[]{"Gallery", "Camera"},
+            builder.setTitle(getString(R.string.choose_image)).setItems(
+                    new CharSequence[]{getString(R.string.gallery), getString(R.string.camera)},
                     (dialog, which) -> {
                         // TODO Auto-generated method stub
                         switch (which) {
@@ -406,7 +407,7 @@ public class DocUploadActivity extends AppCompatActivity {
                                         PackageManager.PERMISSION_GRANTED) {
                                     takePhoto();
                                 } else {
-                                    Toast.makeText(DocUploadActivity.this, "You have denied camera access permission.",
+                                    Toast.makeText(DocUploadActivity.this, getString(R.string.denied_camera_permission),
                                             Toast.LENGTH_LONG).show();
                                 }
                                 break;
@@ -533,7 +534,7 @@ public class DocUploadActivity extends AppCompatActivity {
             pDialog = new ProgressDialog(DocUploadActivity.this);
             // pDialog.setTitle("Loading...");
             pDialog.setCancelable(false);
-            pDialog.setMessage("Loading...");
+            pDialog.setMessage(getString(R.string.loading));
             pDialog.show();
             final ProgressDialog finalPDialog = pDialog;
             VolleyMultipartRequest multipartRequest = new
@@ -548,7 +549,7 @@ public class DocUploadActivity extends AppCompatActivity {
                                 }*/
                                 String resultResponse = new String(response.data);
                                 Log.e("uploadtest", resultResponse + "");
-                                Toast.makeText(DocUploadActivity.this, "File is Uploaded Successfully",
+                                Toast.makeText(DocUploadActivity.this, getString(R.string.uploaded_successfully),
                                         Toast.LENGTH_LONG).show();
                                 pDialog.dismiss();
 
@@ -596,7 +597,7 @@ public class DocUploadActivity extends AppCompatActivity {
             queue.add(multipartRequest);
         } else {
 
-            Toast.makeText(DocUploadActivity.this, "No Internet Connection", Toast.LENGTH_SHORT).show();
+            Toast.makeText(DocUploadActivity.this, getString(R.string.no_internet_connection), Toast.LENGTH_SHORT).show();
 
         }
 
@@ -644,10 +645,17 @@ public class DocUploadActivity extends AppCompatActivity {
         ImageView ivShow = dialog.findViewById(R.id.ivShow);
         Button btCancel = dialog.findViewById(R.id.btCancel);
         Button btOk = dialog.findViewById(R.id.btOk);
+        LinearLayout linearLayout = dialog.findViewById(R.id.linear);
+
         TextView etDate = dialog.findViewById(R.id.etDate);
         TextView txtDocumentName = dialog.findViewById(R.id.txtDocumentName);
         TextView txtDocumentType = dialog.findViewById(R.id.txtDocumentType);
 
+        if (SharedHelper.getKey(DocUploadActivity.this, "selectedlanguage").contains("ar")) {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        } else {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
         try {
             txtDocumentType.setText(responseArray.getJSONObject(UploadPosition).getString("type"));
             txtDocumentName.setText(responseArray.getJSONObject(UploadPosition).getString("name"));
@@ -682,7 +690,7 @@ public class DocUploadActivity extends AppCompatActivity {
         btOk.setOnClickListener(v -> {
 
             if (etDate.getText().toString().isEmpty()) {
-                etDate.setError("Please select expiry date");
+                etDate.setError(getString(R.string.select_expiry));
             } else {
                 documentUri = cameraImageUri;
                 new BitmapWorkerTask(DocUploadActivity.this, adapterImageView,
@@ -727,6 +735,7 @@ public class DocUploadActivity extends AppCompatActivity {
         dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ImageView ivShow = dialog.findViewById(R.id.ivShow);
         Button btCancel = dialog.findViewById(R.id.btCancel);
+        LinearLayout linearLayout = dialog.findViewById(R.id.linear);
         Button btOk = dialog.findViewById(R.id.btOk);
         ivShow.setImageBitmap(bitmap);
 
@@ -737,6 +746,11 @@ public class DocUploadActivity extends AppCompatActivity {
         TextView txtDocumentName = dialog.findViewById(R.id.txtDocumentName);
         TextView txtDocumentType = dialog.findViewById(R.id.txtDocumentType);
 
+        if (SharedHelper.getKey(DocUploadActivity.this, "selectedlanguage").contains("ar")) {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        } else {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
         try {
             txtDocumentType.setText(responseArray.getJSONObject(UploadPosition).getString("type"));
             txtDocumentName.setText(responseArray.getJSONObject(UploadPosition).getString("name"));
@@ -765,7 +779,7 @@ public class DocUploadActivity extends AppCompatActivity {
         btOk.setOnClickListener(v -> {
 
             if (etDate.getText().toString().isEmpty()) {
-                etDate.setError("Please select expiry date");
+                etDate.setError(getString(R.string.select_expiry));
             } else {
                 documentUri = cameraImageUri;
                 new BitmapWorkerTask(DocUploadActivity.this, adapterImageView,
@@ -788,7 +802,7 @@ public class DocUploadActivity extends AppCompatActivity {
 
         btOk.setOnClickListener(v -> {
             if (etDate.getText().toString().isEmpty()) {
-                etDate.setError("Please select expiry date");
+                etDate.setError(getString(R.string.select_expiry));
             } else {
 
 

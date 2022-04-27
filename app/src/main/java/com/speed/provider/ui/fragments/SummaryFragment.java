@@ -65,6 +65,13 @@ public class SummaryFragment extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_summary, container, false);
         findViewsById(view);
+        if (SharedHelper.getKey(getActivity(), "selectedlanguage").contains("ar")) {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            imgBack.setImageDrawable(getActivity().getDrawable(R.drawable.ic_forward));
+
+        } else {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
         setClickListeners();
 
         getProviderSummary();

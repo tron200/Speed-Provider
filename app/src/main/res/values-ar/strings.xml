@@ -39,7 +39,7 @@
 
     <!--Activity Password -->
 
-    <string name="upload_all_documents_and_check_term"><![CDATA[Upload all documents and check term & conditions]]></string>
+    <string name="upload_all_documents_and_check_term">قم بتحميل جميع المستندات وتحقق من الشروط والأحكام</string>
     <!--Activity Register-->
     <string name="email">البريد الإلكترونى</string>
     <string name="phone_number">رقم الهاتف</string>
@@ -418,6 +418,25 @@
     <string name="mobile_number">رقم الهاتف</string>
     <string name="if_you_didn_t_receive_an_otp">ان لم تستلم الرمز</string>
     <string name="click">اضغط</string>
+    <string name="back_twice">الرجاء الضغط فوق "رجوع" مرة أخرى للخروج</string>
+    <string name="km">كم</string>
+    <string name="name_pickup">سيظهر هذا الاسم للسائق أثناء الركوب</string>
+    <string name="enter_name">ادخل الاسم</string>
+    <string name="updated">يتم تحديثه إلى حسابك</string>
+    <string name="enter_mobile">ادخل رقم الهاتف</string>
+    <string name="field_empty">هذا الحقل فارغ</string>
+    <string name="denied_camera_permission">لقد رفضت إذن الوصول إلى الكاميرا.</string>
+    <string name="getting_document">الحصول على نوع المستندات ....</string>
+    <string name="gallery">صالة عرض</string>
+    <string name="camera">الكاميرا</string>
+    <string name="choose_image">اختر صورة :</string>
+    <string name="select_expiry">الرجاء تحديد تاريخ انتهاء الصلاحية</string>
+    <string name="uploaded_successfully">تم رفع الملف بنجاح</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="enter_expiry_date">أدخل تاريخ الانتهاء </string>
+    <string name="check_doc_certify">يرجى التحقق من توثيق الوثيقة</string>
+    <string name="upload_all_document">حمل كافة الوثائق</string>
+    <string name="your_points">Your Points</string>
 
 
 </resources>

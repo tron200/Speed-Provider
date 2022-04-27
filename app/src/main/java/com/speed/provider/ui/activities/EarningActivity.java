@@ -68,15 +68,17 @@ public class EarningActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_earnings);
+
+        findViewByIdAndInitialize();
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            imgBack.setImageDrawable(getDrawable(R.drawable.ic_forward));
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.fragment_earnings);
 
-        findViewByIdAndInitialize();
         activity = EarningActivity.this;
 
         if (isInternet) {

@@ -110,16 +110,19 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_document_upload);
+
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_document_upload);
 
         verifyStoragePermissions(DocumentUpload.this);
-        backArrow = findViewById(R.id.backArrow);
         uploadLicense = findViewById(R.id.uploadLicense);
         uploadsever = findViewById(R.id.uploadsever);
         img = findViewById(R.id.imgLicense);
@@ -175,7 +178,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
 
     private void getDocumnetstype() {
         final ProgressDialog progressDialog = new ProgressDialog(DocumentUpload.this);
-        progressDialog.setTitle("Getting Documents type....");
+        progressDialog.setTitle(getString(R.string.getting_document));
         progressDialog.setCancelable(false);
         progressDialog.show();
 
@@ -264,10 +267,10 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
 
 
             CharSequence[] ch = {};
-            ch = new CharSequence[]{"Gallery", "Camera"};
+            ch = new CharSequence[]{getString(R.string.gallery), getString(R.string.camera)};
 
 
-            builder.setTitle("Choose Image :").setItems(
+            builder.setTitle(getString(R.string.choose_image)).setItems(
                     ch,
                     (dialog, which) -> {
                         // TODO Auto-generated method stub
@@ -284,7 +287,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
                                     takePhoto();
 
                                 } else {
-                                    Toast.makeText(getApplicationContext(), "You have denied camera access permission.", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), getString(R.string.denied_camera_permission), Toast.LENGTH_LONG).show();
                                 }
 
 
@@ -295,8 +298,8 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
                         }
                     });
         } else {
-            builder.setTitle("Choose Image :").setItems(
-                    new CharSequence[]{"Gallery", "Camera"},
+            builder.setTitle(getString(R.string.choose_image)).setItems(
+                    new CharSequence[]{getString(R.string.gallery), getString(R.string.camera)},
                     (dialog, which) -> {
                         // TODO Auto-generated method stub
                         switch (which) {
@@ -311,7 +314,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
                                     takePhoto();
 
                                 } else {
-                                    Toast.makeText(getApplicationContext(), "You have denied camera access permission.", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), getString(R.string.denied_camera_permission), Toast.LENGTH_LONG).show();
                                 }
                                 break;
 
@@ -489,7 +492,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
             pDialog.setCancelable(false);
 
 
-            pDialog.setMessage("Loading...");
+            pDialog.setMessage(getString(R.string.loading));
 
             pDialog.show();
 
@@ -501,7 +504,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
                                 pDialog.dismiss();
                                 String resultResponse = new String(response.data);
                                 Log.e("uploadtest", resultResponse + "");
-                                Toast.makeText(getApplicationContext(), "File is Uploaded Successfully", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), getString(R.string.uploaded_successfully), Toast.LENGTH_LONG).show();
                                 SharedHelper.putKey(DocumentUpload.this, "Document Uploaded", "true");
                                 try {
                                     JSONObject jsonObject = new JSONObject(resultResponse);
@@ -553,7 +556,7 @@ public class DocumentUpload extends AppCompatActivity implements View.OnClickLis
             queue.add(multipartRequest);
         } else {
 
-            Toast.makeText(DocumentUpload.this, "No Internet Connection", Toast.LENGTH_SHORT).show();
+            Toast.makeText(DocumentUpload.this, getString(R.string.no_internet_connection), Toast.LENGTH_SHORT).show();
 
 
         }

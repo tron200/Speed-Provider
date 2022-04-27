@@ -7,13 +7,13 @@
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_chat_app_item_view.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_complaints.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_coupon.xml" value="0.1921875" />
-        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_doc_upload.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_doc_upload.xml" value="0.22" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_document_status.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_document_upload.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_edit_profile.xml" value="0.1585144927536232" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_face_book_login.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_favourite_place_search.xml" value="0.1585144927536232" />
-        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_forgot_password.xml" value="0.18" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_full_image.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_google_login.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/activity_history.xml" value="0.1921875" />
@@ -58,8 +58,9 @@
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_past_trips.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_soruce_and_destination.xml" value="0.1585144927536232" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_summary.xml" value="0.1921875" />
-        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_your_trips.xml" value="0.1921875" />
-        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/image_show_layout.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_your_points.xml" value="0.14" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/fragment_your_trips.xml" value="0.25" />
+        <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/image_show_layout.xml" value="0.22" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/location_list_item_view.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/mobileverification.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-Provider/app/src/main/res/layout/nav_header_main.xml" value="0.1921875" />
@@ -154,12 +155,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/withdraw_item_adapter.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/menu/activity_main_drawer.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/activity_complaints.xml" value="0.25" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/activity_document_upload.xml" value="0.25" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/activity_history.xml" value="0.25" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/activity_history_details.xml" value="0.25" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/mobileverification.xml" value="0.3384813384813385" />
+        <entry key="..\:/abdelrhman/speed/app/src/main/res/layout/mobileverification.xml" value="0.72" />
         <entry key="..\:/abdelrhman/speed/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1545" />
       </map>
     </option>

@@ -37,6 +37,7 @@
         <LinearLayout
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
+
             android:layout_height="?actionBarSize"
             android:background="@drawable/border_header">
 

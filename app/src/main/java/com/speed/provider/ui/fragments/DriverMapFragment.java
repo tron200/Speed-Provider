@@ -63,6 +63,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.speed.provider.ClassLuxApp;
 import com.speed.provider.R;
 import com.speed.provider.ui.activities.DocUploadActivity;
+import com.speed.provider.ui.activities.MainActivity;
 import com.speed.provider.ui.activities.Profile;
 import com.speed.provider.ui.activities.ShowProfile;
 import com.speed.provider.ui.activities.SplashScreen;
@@ -547,12 +548,16 @@ public class DriverMapFragment extends Fragment implements
             if (event.getAction() != KeyEvent.ACTION_DOWN)
                 return true;
             if (keyCode == KeyEvent.KEYCODE_BACK) {
-                if (doubleBackToExitPressedOnce) {
+                if(((MainActivity)getActivity()).isOpen()) {
+                    ((MainActivity) getActivity()).closeDrawer();
+                    return false;
+                }else if (doubleBackToExitPressedOnce) {
                     getActivity().finish();
+
                     return false;
                 }
                 doubleBackToExitPressedOnce = true;
-                Toast.makeText(getActivity(), "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), getString(R.string.back_twice), Toast.LENGTH_SHORT).show();
                 new Handler().postDelayed(() -> doubleBackToExitPressedOnce = false, 5000);
                 return true;
             }
@@ -588,6 +593,16 @@ public class DriverMapFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         if (view == null) {
             view = inflater.inflate(R.layout.fragment_map, container, false);
+        }
+        user_name = view.findViewById(R.id.user_name);
+        user_type = view.findViewById(R.id.user_type);
+        if (SharedHelper.getKey(getActivity(), "selectedlanguage").contains("ar")) {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            user_name.setTextDirection(View.TEXT_DIRECTION_RTL);
+            user_type.setTextDirection(View.TEXT_DIRECTION_RTL);
+
+        } else {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
         ButterKnife.bind(this, view);
         findViewById(view);
@@ -1250,7 +1265,7 @@ public class DriverMapFragment extends Fragment implements
                                             try {
                                                 btn_01_status.setText(getActivity().getString(R.string.tap_when_arrived));
                                             } catch (NullPointerException ne) {
-                                                btn_01_status.setText("ARRIVED");
+                                                btn_01_status.setText(getActivity().getString(R.string.tap_when_arrived));
                                             }
                                             CurrentStatus = "ARRIVED";
                                             sos.setVisibility(View.GONE);
@@ -1279,7 +1294,7 @@ public class DriverMapFragment extends Fragment implements
                                                 topSrcDestTxtLbl.setText(getActivity().getString(R.string.pick_up));
                                             } catch (NullPointerException ne) {
                                                 ne.printStackTrace();
-                                                topSrcDestTxtLbl.setText("Pick up Location");
+                                                topSrcDestTxtLbl.setText(getActivity().getString(R.string.pick_up));
                                             }
 
 
@@ -1317,7 +1332,7 @@ public class DriverMapFragment extends Fragment implements
                                             try {
                                                 topSrcDestTxtLbl.setText(getActivity().getString(R.string.drop_at));
                                             } catch (Exception e) {
-                                                topSrcDestTxtLbl.setText("Drop Location");
+                                                topSrcDestTxtLbl.setText(getActivity().getString(R.string.drop_at));
                                             }
 
 
@@ -2117,7 +2132,7 @@ public class DriverMapFragment extends Fragment implements
                 txt01UserName.setText(user.optString("first_name"));
                 if (!statusResponse.isNull("distance")) {
                     Double d = Double.parseDouble(statusResponse.optString("distance"));
-                    tvDistance.setText(Math.round(d) + "KM");
+                    tvDistance.setText(Math.round(d) + getString(R.string.km));
                 }
                 if (statusResponse.getJSONObject("user").getString("rating") != null) {
                     rat01UserRating.setRating(Float.valueOf(user.getString("rating")));

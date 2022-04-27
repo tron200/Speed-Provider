@@ -66,17 +66,20 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_withdraw);
+        initViews();
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_withdraw);
 
         stripe = new Stripe(this);
         stripe.setDefaultPublishableKey(URLHelper.STRIPE_TOKEN);
-        initViews();
 
         //SharedHelper.getKey(WithdrawActivity.this,"user_provider_id");
         providerId = SharedHelper.getKey(WithdrawActivity.this, "id");

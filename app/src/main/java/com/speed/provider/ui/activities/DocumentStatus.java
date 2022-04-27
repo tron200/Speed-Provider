@@ -3,6 +3,7 @@ package com.speed.provider.ui.activities;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -23,8 +24,10 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,6 +44,7 @@ import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.speed.provider.BuildConfig;
 import com.speed.provider.ClassLuxApp;
@@ -56,13 +60,17 @@ import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -76,7 +84,10 @@ public class DocumentStatus extends AppCompatActivity {
     public static int deviceHeight;
     public static int deviceWidth;
     private ImageView backArrow;
+    ArrayList<String> documnet_type;
     RecyclerView recDocuments;
+    JSONArray array;
+    int UploadPosition = 0;
     String documnetName = "", documentId = "";
     Uri documentUri;
     private Uri cameraImageUri = null;
@@ -121,14 +132,17 @@ public class DocumentStatus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_document_status);
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_document_status);
-        backArrow = findViewById(R.id.backArrow);
+        documnet_type = new ArrayList<>();
+
         recDocuments = findViewById(R.id.recDocuments);
         backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,6 +151,7 @@ public class DocumentStatus extends AppCompatActivity {
             }
         });
         getDocList();
+        getDocumnetstype();
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         deviceHeight = displayMetrics.heightPixels;
@@ -156,6 +171,7 @@ public class DocumentStatus extends AppCompatActivity {
 
                             if (response != null) {
                                 Log.v("response", response + "doc");
+                                array = response;
                                 PostAdapter postAdapter = new PostAdapter(response);
                                 recDocuments.setHasFixedSize(true);
                                 recDocuments.setLayoutManager(new LinearLayoutManager(DocumentStatus.this) {
@@ -207,6 +223,53 @@ public class DocumentStatus extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
+    private void getDocumnetstype() {
+        final ProgressDialog progressDialog = new ProgressDialog(DocumentStatus.this);
+        progressDialog.setTitle(getString(R.string.getting_document));
+        progressDialog.setCancelable(false);
+        progressDialog.show();
+
+        JSONObject object = new JSONObject();
+
+        JsonObjectRequest jsonObjectRequest = new
+                JsonObjectRequest(Request.Method.GET,
+                        URLHelper.BASE + "api/provider/document/types",
+                        null,
+                        response -> {
+                            Log.e("response", response + "document");
+                            progressDialog.dismiss();
+
+                            try {
+                                JSONArray jsonArray = response.getJSONArray("document");
+                                for (int i = 0; i < jsonArray.length(); i++) {
+
+                                    documnet_type.add(jsonArray.getJSONObject(i).getString("type"));
+                                }
+
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+
+                        }, error -> {
+                    progressDialog.dismiss();
+                    displayMessage(getString(R.string.something_went_wrong));
+                }) {
+                    @Override
+                    public Map<String, String> getHeaders() throws AuthFailureError {
+                        HashMap<String, String> headers = new HashMap<String, String>();
+                        headers.put("X-Requested-With", "XMLHttpRequest");
+                        headers.put("Authorization", "Bearer " + SharedHelper.getKey(getApplicationContext(), "access_token"));
+                        Log.e("", "Access_Token" + SharedHelper.getKey(getApplicationContext(), "access_token"));
+                        return headers;
+                    }
+                };
+
+        ClassLuxApp.getInstance().addToRequestQueue(jsonObjectRequest);
+    }
+
 
     public void displayMessage(String toastString) {
         Toasty.info(this, toastString, Toast.LENGTH_SHORT, true).show();
@@ -318,16 +381,43 @@ public class DocumentStatus extends AppCompatActivity {
     }
 
     private void showImage(Uri uri) {
+        final Calendar myCalendar = Calendar.getInstance();
+
         Dialog dialog = new Dialog(DocumentStatus.this);
         dialog.setContentView(R.layout.image_show_layout);
+        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ImageView ivShow = dialog.findViewById(R.id.ivShow);
+        TextView etDate = dialog.findViewById(R.id.etDate);
+        TextView txtDocumentName = dialog.findViewById(R.id.txtDocumentName);
+        TextView txtDocumentType = dialog.findViewById(R.id.txtDocumentType);
         Button btCancel = dialog.findViewById(R.id.btCancel);
         Button btOk = dialog.findViewById(R.id.btOk);
+
+
+            txtDocumentName.setText(documnetName);
+            txtDocumentType.setText(documnet_type.get(UploadPosition));
+
+
+        DatePickerDialog.OnDateSetListener date = (view, year, monthOfYear, dayOfMonth) -> {
+            // TODO Auto-generated method stub
+            myCalendar.set(Calendar.YEAR, year);
+            myCalendar.set(Calendar.MONTH, monthOfYear);
+            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+            String myFormat = "yyyy-MM-dd"; //In which you need put here
+            SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+            etDate.setText(sdf.format(myCalendar.getTime()));
+
+       };
+
         dialog.show();
+        etDate.setOnClickListener(v -> new DatePickerDialog(DocumentStatus.this, date, myCalendar
+                .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                myCalendar.get(Calendar.DAY_OF_MONTH)).show());
         btCancel.setOnClickListener(v -> {
             dialog.dismiss();
             browseanother();
         });
+
 
         new BitmapWorkerTask(DocumentStatus.this, ivShow,
                 "add_revenue").execute(uri);
@@ -335,7 +425,7 @@ public class DocumentStatus extends AppCompatActivity {
 
             saveProfileAccount(documnetName,
                     AppHelper.getFileDataFromDrawable(ivShow.getDrawable()),
-                    documentId);
+                    documentId,etDate.getText().toString());
             dialog.dismiss();
 
         });
@@ -344,15 +434,46 @@ public class DocumentStatus extends AppCompatActivity {
 
     void showImage1(Bitmap bitmap) {
         Log.e("dialogcallk", "dialogcall");
+        final Calendar myCalendar = Calendar.getInstance();
+
         final Dialog dialog = new Dialog(DocumentStatus.this);
         dialog.setContentView(R.layout.image_show_layout);
+        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
         ImageView ivShow = dialog.findViewById(R.id.ivShow);
+        TextView etDate = dialog.findViewById(R.id.etDate);
+        LinearLayout linearLayout = dialog.findViewById(R.id.linear);
+        TextView txtDocumentName = dialog.findViewById(R.id.txtDocumentName);
+        TextView txtDocumentType = dialog.findViewById(R.id.txtDocumentType);
         Button btCancel = dialog.findViewById(R.id.btCancel);
         Button btOk = dialog.findViewById(R.id.btOk);
         ivShow.setImageBitmap(bitmap);
 
+        if (SharedHelper.getKey(DocumentStatus.this, "selectedlanguage").contains("ar")) {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        } else {
+            linearLayout.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
+            txtDocumentName.setText(documnetName);
+//            txtDocumentType.setText(array.getJSONObject(UploadPosition).getString("type"));
+            txtDocumentType.setText(documnet_type.get(UploadPosition));
+
+
+        DatePickerDialog.OnDateSetListener date = (view, year, monthOfYear, dayOfMonth) -> {
+            // TODO Auto-generated method stub
+            myCalendar.set(Calendar.YEAR, year);
+            myCalendar.set(Calendar.MONTH, monthOfYear);
+            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+            String myFormat = "yyyy-MM-dd"; //In which you need put here
+            SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+            etDate.setText(sdf.format(myCalendar.getTime()));
+
+        };
         dialog.show();
 
+        etDate.setOnClickListener(v -> new DatePickerDialog(DocumentStatus.this, date, myCalendar
+                .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                myCalendar.get(Calendar.DAY_OF_MONTH)).show());
 
         btOk.setOnClickListener(v -> {
             /*if (uploadTag.equalsIgnoreCase("LogBook")) {
@@ -366,10 +487,14 @@ public class DocumentStatus extends AppCompatActivity {
 
 
             }*/
-            dialog.dismiss();
-            saveProfileAccount(documnetName,
-                    AppHelper.getFileDataFromDrawable(ivShow.getDrawable()),
-                    documentId);
+            if (etDate.getText().toString().isEmpty()) {
+                etDate.setError(getString(R.string.select_expiry));
+            }else {
+                dialog.dismiss();
+                saveProfileAccount(documnetName,
+                        AppHelper.getFileDataFromDrawable(ivShow.getDrawable()),
+                        documentId,etDate.getText().toString());
+            }
 
         });
         btCancel.setOnClickListener(v -> {
@@ -400,8 +525,8 @@ public class DocumentStatus extends AppCompatActivity {
 
 
         CharSequence[] ch = {};
-        ch = new CharSequence[]{"Gallery", "Camera"};
-        builder.setTitle("Choose Image :").setItems(
+        ch = new CharSequence[]{getString(R.string.gallery), getString(R.string.camera)};
+        builder.setTitle(getString(R.string.choose_image)).setItems(
                 ch,
                 (dialog, which) -> {
                     // TODO Auto-generated method stub
@@ -415,7 +540,7 @@ public class DocumentStatus extends AppCompatActivity {
                                     PackageManager.PERMISSION_GRANTED) {
                                 takePhoto();
                             } else {
-                                Toast.makeText(DocumentStatus.this, "You have denied camera access permission.",
+                                Toast.makeText(DocumentStatus.this, getString(R.string.denied_camera_permission),
                                         Toast.LENGTH_LONG).show();
                             }
                             break;
@@ -428,12 +553,12 @@ public class DocumentStatus extends AppCompatActivity {
         return builder.create();
     }
 
-    public void saveProfileAccount(String filename, byte[] bytes, String docid) {
+    public void saveProfileAccount(String filename, byte[] bytes, String docid, String expdate) {
         if (Utils.isConnectingToInternet(DocumentStatus.this)) {
             ProgressDialog pDialog = new ProgressDialog(DocumentStatus.this);
             // pDialog.setTitle("Loading...");
             pDialog.setCancelable(false);
-            pDialog.setMessage("Loading...");
+            pDialog.setMessage(getString(R.string.loading));
             pDialog.show();
 
             VolleyMultipartRequest multipartRequest = new
@@ -449,7 +574,7 @@ public class DocumentStatus extends AppCompatActivity {
                                 }*/
                                 String resultResponse = new String(response.data);
                                 Log.e("uploadtest", resultResponse + "");
-                                Toast.makeText(DocumentStatus.this, "File is Uploaded Successfully",
+                                Toast.makeText(DocumentStatus.this, getString(R.string.uploaded_successfully),
                                         Toast.LENGTH_LONG).show();
                                 pDialog.dismiss();
 
@@ -462,6 +587,8 @@ public class DocumentStatus extends AppCompatActivity {
                         protected Map<String, String> getParams() {
                             Map<String, String> param = new HashMap<>();
                             param.put("document_id", docid);
+                            param.put("expires_at", expdate);
+
                             param.put("provider_id", SharedHelper.getKey(DocumentStatus.this, "id"));
 
 
@@ -499,7 +626,7 @@ public class DocumentStatus extends AppCompatActivity {
             RequestQueue queue = Volley.newRequestQueue(DocumentStatus.this);
             queue.add(multipartRequest);
         } else {
-            Toast.makeText(DocumentStatus.this, "No Internet Connection", Toast.LENGTH_SHORT).show();
+            Toast.makeText(DocumentStatus.this, getString(R.string.no_internet_connection), Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -554,6 +681,7 @@ public class DocumentStatus extends AppCompatActivity {
                 });
 
                 holder.txtUpdate.setOnClickListener(v -> {
+                    UploadPosition = position;
                     documnetName = jsonArray.optJSONObject(position).optString("document_name");
                     documentId = jsonArray.optJSONObject(position).optString("document_id");
                     if (ContextCompat.checkSelfPermission(DocumentStatus.this, Manifest.permission.CAMERA)

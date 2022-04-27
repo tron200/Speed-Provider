@@ -189,7 +189,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener, Go
             } else if (etPassword.length() < 6) {
                 displayMessage(getString(R.string.password_size));
             } else {
-                SharedHelper.putKey(getApplicationContext(), "email", etEmail.getText().toString());
+                SharedHelper.putKey(getApplicationContext(), "email", etEmail.getText().toString().trim());
                 SharedHelper.putKey(getApplicationContext(), "password", etPassword.getText().toString());
                 signIn();
             }

@@ -265,6 +265,14 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
     }
 
+    public boolean isOpen(){
+        return drawer.isDrawerOpen(GravityCompat.START);
+    }
+
+    public void closeDrawer()
+    {
+        drawer.closeDrawer(GravityCompat.START);
+    }
 
     @SuppressLint("SetTextI18n")
     private void loadNavHeader() {

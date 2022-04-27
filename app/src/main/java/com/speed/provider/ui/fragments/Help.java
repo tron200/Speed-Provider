@@ -59,6 +59,13 @@ public class Help extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_help, container, false);
         findViewByIdAndInitialize(view);
+        if (SharedHelper.getKey(getActivity(), "selectedlanguage").contains("ar")) {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backImg.setImageDrawable(getActivity().getDrawable(R.drawable.ic_forward));
+
+        } else {
+            getActivity().getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
         setClickListeners();
         getHelp();
         return view;

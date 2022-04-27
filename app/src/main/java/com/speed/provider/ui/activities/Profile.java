@@ -57,16 +57,36 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_profile);
+        findview();
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
+            txtEarning.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_back_black),null,getDrawable(R.drawable.ic_earning),null);
+            txtReview.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_back_black),null,getDrawable(R.drawable.ic_star),null);
+            txtPassword.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_back_black),null,getDrawable(R.drawable.ic_password),null);
+
+            txtEarning.setCompoundDrawablePadding(40);
+            txtReview.setCompoundDrawablePadding(40);
+            txtPassword.setCompoundDrawablePadding(40);
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+
+            txtEarning.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_earning),null,getDrawable(R.drawable.ic_forward_black),null);
+            txtReview.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_star),null,getDrawable(R.drawable.ic_forward_black),null);
+            txtPassword.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_password),null,getDrawable(R.drawable.ic_forward_black),null);
+
+            txtEarning.setCompoundDrawablePadding(40);
+            txtReview.setCompoundDrawablePadding(40);
+            txtPassword.setCompoundDrawablePadding(40);
         }
 
-        setContentView(R.layout.activity_profile);
+
         currentLanguage = getIntent().getStringExtra(currentLang);
 
-        findview();
 
         backArrow.setOnClickListener(view -> onBackPressed());
     }

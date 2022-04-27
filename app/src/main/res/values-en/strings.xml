@@ -370,5 +370,24 @@
     <string name="mobile_number">Mobile number</string>
     <string name="if_you_didn_t_receive_an_otp">if you didn\'t receive an otp</string>
     <string name="click">Click</string>
+    <string name="back_twice">Please click BACK again to exit</string>
+    <string name="km">km</string>
+    <string name="name_pickup">This name will be shown to the driver during ride pickup</string>
+    <string name="enter_name">Enter  Name</string>
+    <string name="updated">It is updated to the your account</string>
+    <string name="enter_mobile">Enter Mobile No</string>
+    <string name="field_empty">This field is not empty</string>
+    <string name="denied_camera_permission">You have denied camera access permission.</string>
+    <string name="getting_document">Getting Documents type....</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="choose_image">Choose Image :</string>
+    <string name="select_expiry">Please select expiry date</string>
+    <string name="uploaded_successfully">File is Uploaded Successfully</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="enter_expiry_date">Enter expiry date</string>
+    <string name="check_doc_certify">Please check document certify</string>
+    <string name="upload_all_document">Upload all documents</string>
+    <string name="your_points">Your Points</string>
 
 </resources>

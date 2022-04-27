@@ -45,15 +45,18 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_update_profile);
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_update_profile);
         toolName = findViewById(R.id.toolName);
-        backArrow = findViewById(R.id.backArrow);
         editText = findViewById(R.id.editText);
         btnUpdate = findViewById(R.id.btnUpdate);
         text_input_layout = findViewById(R.id.text_input_layout);
@@ -72,9 +75,9 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
         if (parameter.equalsIgnoreCase("first_name")) {
 
             toolName.setText(getString(R.string.update_name));
-            text_input_layout.setHelperText("This name will be shown to the driver during ride pickup");
-            editText.setHint("Name");
-            text_input_layout.setHint("Enter  Name");
+            text_input_layout.setHelperText(getString(R.string.name_pickup));
+            editText.setHint(getString(R.string.name));
+            text_input_layout.setHint(getString(R.string.enter_name));
             editText.setText(value);
             editText.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
         }
@@ -82,7 +85,7 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
         if (parameter.equalsIgnoreCase("email")) {
 
             toolName.setText(getString(R.string.update_email));
-            text_input_layout.setHelperText("It is updated to the your account");
+            text_input_layout.setHelperText(getString(R.string.updated));
             editText.setHint(getString(R.string.email));
             text_input_layout.setHint(getString(R.string.enter_email));
             editText.setText(value);
@@ -91,8 +94,8 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
         if (parameter.equalsIgnoreCase("mobile")) {
 
             toolName.setText(getString(R.string.update_mobile));
-            editText.setHint("Mobile No");
-            text_input_layout.setHint("Enter Mobile No");
+            editText.setHint(getString(R.string.mobile_number));
+            text_input_layout.setHint(getString(R.string.enter_mobile));
             editText.setText(value);
             editText.setInputType(InputType.TYPE_CLASS_NUMBER);
         }
@@ -107,15 +110,15 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
         }
         if (v.getId() == R.id.btnUpdate) {
             if (editText.getText().toString().equals("")) {
-                text_input_layout.setError("This field is not empty");
+                text_input_layout.setError(getString(R.string.field_empty));
             } else {
                 if (isInternet) {
                     if (parameter.equals("first_name")) {
 
-                        SharedHelper.putKey(getApplicationContext(), "first_name", editText.getText().toString());
+                        SharedHelper.putKey(getApplicationContext(), "first_name", editText.getText().toString().trim());
                         updateProfileWithoutImage();
                     } else {
-                        SharedHelper.putKey(getApplicationContext(), parameter, editText.getText().toString());
+                        SharedHelper.putKey(getApplicationContext(), parameter, editText.getText().toString().trim());
                         updateProfileWithoutImage();
                     }
 
@@ -137,9 +140,9 @@ public class UpdateProfile extends AppCompatActivity implements View.OnClickList
             try {
                 JSONObject jsonObject = new JSONObject(res);
                 SharedHelper.putKey(getApplicationContext(), "id", jsonObject.optString("id"));
-                SharedHelper.putKey(getApplicationContext(), "first_name", jsonObject.optString("first_name"));
+                SharedHelper.putKey(getApplicationContext(), "first_name", jsonObject.optString("first_name").trim());
 //                    SharedHelper.putKey(getApplicationContext(), "last_name", jsonObject.optString("last_name"));
-                SharedHelper.putKey(getApplicationContext(), "email", jsonObject.optString("email"));
+                SharedHelper.putKey(getApplicationContext(), "email", jsonObject.optString("email").trim());
                 if (jsonObject.optString("avatar").equals("") || jsonObject.optString("avatar") == null) {
                     SharedHelper.putKey(getApplicationContext(), "picture", "");
                 } else {

@@ -71,19 +71,22 @@ public class WithdrawAmountActivity extends AppCompatActivity implements View.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_withdraw_amount);
+        initViews();
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_withdraw_amount);
         stripe = new Stripe(this);
         stripe.setDefaultPublishableKey(URLHelper.STRIPE_TOKEN);
 
         providerID = SharedHelper.getKey(WithdrawAmountActivity.this, "id");
 
-        initViews();
         getCardList();
 
 
