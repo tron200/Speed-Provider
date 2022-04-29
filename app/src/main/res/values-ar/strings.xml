@@ -441,8 +441,8 @@
     <string name="request_rejected_successfully">تم رفض الطلب بنجاح</string>
     <string name="request_timeout">طلب مهلة</string>
     <string name="request_cancelled">تم إلغاء الطلب</string>
-    <string name="enter_acoupon">Enter a coupon</string>
-    <string name="please_grant_permission">Please grant permission for using this app!</string>
+    <string name="enter_acoupon">أدخل قسيمة</string>
+    <string name="please_grant_permission">يرجى منح الإذن لاستخدام هذا التطبيق!</string>
     <string name="request_accepted_successfully">تم قبول الطلب بنجاح</string>
 
     <string name="th"> </string>
