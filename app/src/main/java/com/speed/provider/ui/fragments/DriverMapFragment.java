@@ -2387,7 +2387,7 @@ public class DriverMapFragment extends Fragment implements
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, URLHelper.CANCEL_REQUEST_API, object, response -> {
                 customDialog.dismiss();
                 utils.print("CancelRequestResponse", response.toString());
-                Toast.makeText(getActivity(), "" + "You have cancelled the request", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), getString(R.string.you_have_cancelled_request), Toast.LENGTH_SHORT).show();
                 mapClear();
                 clearVisibility();
                 layoutinfo.setVisibility(View.VISIBLE);
@@ -2433,7 +2433,7 @@ public class DriverMapFragment extends Fragment implements
             if (isAdded()) {
                 customDialog.dismiss();
                 if (status.equals("Accept")) {
-                    Toast.makeText(getActivity(), "Request accepted successfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), getString(R.string.request_accepted_successfully), Toast.LENGTH_SHORT).show();
                 } else {
                     if (!timerCompleted) {
                         if (ll_01_contentLayer_accept_or_reject_now.getVisibility() == View.VISIBLE) {
@@ -2453,9 +2453,9 @@ public class DriverMapFragment extends Fragment implements
                             timerCompleted = true;
                             handleIncomingRequest("Reject", request_id);
                         }
-                        Toast.makeText(getActivity(), "Request rejected successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), getString(R.string.request_rejected_successfully), Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(getActivity(), "Request Timeout", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), getString(R.string.request_timeout), Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -2619,7 +2619,7 @@ public class DriverMapFragment extends Fragment implements
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_LOCATION) {
             if (resultCode == Activity.RESULT_CANCELED) {
-                Toast.makeText(getActivity(), "Request Cancelled", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), getString(R.string.request_cancelled), Toast.LENGTH_SHORT).show();
             }
         }
     }

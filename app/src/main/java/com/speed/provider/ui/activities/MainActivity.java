@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         map();
 
         Connect.addMyBooleanListener(() -> Toast.makeText(getApplication(),
-                "Changed", Toast.LENGTH_SHORT).show());
+                getString(R.string.changed), Toast.LENGTH_SHORT).show());
         loadNavHeader();
         setUpNavigationView();
 

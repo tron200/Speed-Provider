@@ -430,13 +430,17 @@
     <string name="gallery">صالة عرض</string>
     <string name="camera">الكاميرا</string>
     <string name="choose_image">اختر صورة :</string>
-    <string name="select_expiry">الرجاء تحديد تاريخ انتهاء الصلاحية</string>
+    <string name="select_expiry">الرجاء تحديد تاريخ الانتهاء</string>
     <string name="uploaded_successfully">تم رفع الملف بنجاح</string>
     <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
     <string name="enter_expiry_date">أدخل تاريخ الانتهاء </string>
     <string name="check_doc_certify">يرجى التحقق من توثيق الوثيقة</string>
     <string name="upload_all_document">حمل كافة الوثائق</string>
-    <string name="your_points">Your Points</string>
+    <string name="changed">تغيرت</string>
+    <string name="you_have_cancelled_request">لقد ألغيت الطلب</string>
+    <string name="request_rejected_successfully">تم رفض الطلب بنجاح</string>
+    <string name="request_timeout">طلب مهلة</string>
+    <string name="request_cancelled">تم إلغاء الطلب</string>
 
 
 </resources>

@@ -390,6 +390,12 @@
     <string name="upload_all_document">Upload all documents</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="your_points">Your Points</string>
+
+    <string name="changed">Changed</string>
+    <string name="you_have_cancelled_request">You have cancelled the request</string>
+    <string name="request_accepted_successfully">Request accepted successfully</string>
+    <string name="request_rejected_successfully">Request rejected successfully</string>
+    <string name="request_timeout">Request Timeout</string>
+    <string name="request_cancelled">Request Cancelled</string>
 
 </resources>
