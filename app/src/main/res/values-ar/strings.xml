@@ -454,6 +454,16 @@
     <string name="enter_paypa_id">أدخل Paypal id</string>
     <string name="mobile_number_no_match_with_email">رقم الهاتف لا يتطابق مع البريد الإلكتروني المسجل به</string>
     <string name="mobile_number_is_not_exist_with_email">رقم الهاتف غير موجود مع البريد الإلكتروني هذا</string>
+    <string name="check_your_internet">تحقق من الإنترنت الخاص بك</string>
+    <string name="please_choose_pickup_location">الرجاء اختيار موقع الالتقاط</string>
+    <string name="setting">الإعدادات</string>
+    <string name="location_permission_needed">إذن الموقع مطلوب</string>
+    <string name="please_accept_permission">يحتاج هذا التطبيق إلى إذن الموقع ، يرجى قبول استخدام وظائف الموقع</string>
+    <string name="need_permission">بحاجة إلى أذونات</string>
+    <string name="need_permission_go_to_setting">يحتاج هذا التطبيق إلى إذن لاستخدام هذه الميزة. يمكنك منحهم في الإعدادات .</string>
+    <string name="go_to_settings">اذهب للاعدادات</string>
+    <string name="delete">حذف</string>
+    <string name="do_you_realy_want_to_delete">هل تريد حقا أن تحذف؟</string>
 
 
 </resources>

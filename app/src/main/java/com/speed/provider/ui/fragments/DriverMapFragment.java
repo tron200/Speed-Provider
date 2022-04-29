@@ -902,9 +902,9 @@ public class DriverMapFragment extends Fragment implements
             if (ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
                 new AlertDialog.Builder(getActivity())
-                        .setTitle("Location Permission Needed")
-                        .setMessage("This app needs the Location permission, please accept to use location functionality")
-                        .setPositiveButton("OK", (dialogInterface, i) -> {
+                        .setTitle(getActivity().getString(R.string.location_permission_needed))
+                        .setMessage(getActivity().getString(R.string.please_accept_permission))
+                        .setPositiveButton(getActivity().getString(R.string.ok), (dialogInterface, i) -> {
                             ActivityCompat.requestPermissions(getActivity(),
                                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                                     1);

@@ -299,12 +299,12 @@ public class OnGoingTrips extends Fragment {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setMessage(getString(R.string.cencel_request))
                         .setCancelable(false)
-                        .setPositiveButton("YES", (dialog, id) -> {
+                        .setPositiveButton(getString(R.string.yes), (dialog, id) -> {
                             dialog.dismiss();
                             Log.e("canceljson", jsonArray + "j");
                             cancelRequest(jsonArray.optJSONObject(position).optString("id"));
                         })
-                        .setNegativeButton("NO", (dialog, id) -> dialog.dismiss());
+                        .setNegativeButton(getString(R.string.no), (dialog, id) -> dialog.dismiss());
                 AlertDialog alert = builder.create();
                 alert.show();
             });

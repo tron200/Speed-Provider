@@ -61,8 +61,8 @@ public class PaymentListAdapter extends ArrayAdapter<CardDetails> {
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(context)
-                        .setTitle("Delete")
-                        .setMessage("Do you really want to delete?")
+                        .setTitle(context.getString(R.string.delete))
+                        .setMessage(context.getString(R.string.do_you_realy_want_to_delete))
                         .setIcon(android.R.drawable.ic_dialog_alert)
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 

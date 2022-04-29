@@ -408,5 +408,15 @@
     <string name="enter_paypa_id">Enter Paypal id</string>
     <string name="mobile_number_no_match_with_email">Mobile no. is not match with register email id</string>
     <string name="mobile_number_is_not_exist_with_email">Mobile no is not exist with this email_id</string>
+    <string name="check_your_internet">Check your Internet</string>
+    <string name="please_choose_pickup_location">Please choose pickup location</string>
+    <string name="setting">Setting</string>
+    <string name="location_permission_needed">Location Permission Needed</string>
+    <string name="please_accept_permission">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="need_permission">Need Permissions</string>
+    <string name="need_permission_go_to_setting">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="delete">Delete</string>
+    <string name="do_you_realy_want_to_delete">Do you really want to delete?</string>
 
 </resources>

@@ -284,13 +284,13 @@ public class SplashScreen extends AppCompatActivity {
 
     private void showSettingsDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(SplashScreen.this);
-        builder.setTitle("Need Permissions");
-        builder.setMessage("This app needs permission to use this feature. You can grant them in app settings.");
-        builder.setPositiveButton("GOTO SETTINGS", (dialog, which) -> {
+        builder.setTitle(getString(R.string.need_permission));
+        builder.setMessage(getString(R.string.need_permission_go_to_setting));
+        builder.setPositiveButton(getString(R.string.go_to_settings), (dialog, which) -> {
             dialog.cancel();
             openSettings();
         });
-        builder.setNegativeButton("Cancel", (dialog, which) -> dialog.cancel());
+        builder.setNegativeButton(getString(R.string.cancel_), (dialog, which) -> dialog.cancel());
         builder.show();
 
     }
