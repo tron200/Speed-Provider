@@ -389,7 +389,7 @@
     <string name="check_doc_certify">Please check document certify</string>
     <string name="upload_all_document">Upload all documents</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
     <string name="changed">Changed</string>
     <string name="you_have_cancelled_request">You have cancelled the request</string>
@@ -397,5 +397,16 @@
     <string name="request_rejected_successfully">Request rejected successfully</string>
     <string name="request_timeout">Request Timeout</string>
     <string name="request_cancelled">Request Cancelled</string>
+    <string name="enter_acoupon">Enter a coupon</string>
+    <string name="please_grant_permission">Please grant permission for using this app!</string>
+    <string name="th">"th "</string>
+    <string name="coming_soon">Coming Soon...</string>
+    <string name="verfication_code_is_wrong">Verification Code is wrong</string>
+    <string name="enter_the_correct_verification_code">Enter the Correct verification Code</string>
+    <string name="send_to">\"Send to ( \"</string>
+    <string name="successfully_verified">Successfully verified</string>
+    <string name="enter_paypa_id">Enter Paypal id</string>
+    <string name="mobile_number_no_match_with_email">Mobile no. is not match with register email id</string>
+    <string name="mobile_number_is_not_exist_with_email">Mobile no is not exist with this email_id</string>
 
 </resources>

@@ -235,7 +235,7 @@ public class WithdrawAmountActivity extends AppCompatActivity implements View.On
             } else {
                 if (paypalId.getText().toString().isEmpty()) {
                     Toast.makeText(WithdrawAmountActivity.this,
-                            "Enter Paypal id", Toast.LENGTH_SHORT).show();
+                            getString(R.string.enter_paypa_id), Toast.LENGTH_SHORT).show();
                 } else {
                     addAccountDetails("", "", paypalId.getText().toString(), type);
                 }

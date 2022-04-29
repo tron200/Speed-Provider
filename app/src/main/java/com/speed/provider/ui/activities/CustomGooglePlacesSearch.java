@@ -499,7 +499,7 @@ public class CustomGooglePlacesSearch extends AppCompatActivity
                     fetchLocation();
                 } else {
                     // permission denied!
-                    Toast.makeText(this, "Please grant permission for using this app!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.please_grant_permission), Toast.LENGTH_LONG).show();
                 }
                 return;
             }

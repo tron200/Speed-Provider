@@ -266,7 +266,7 @@ public class ForgotPassword extends AppCompatActivity {
                         //OTP.performClick();
                         ll_resend.setVisibility(View.GONE);
                     } else {
-                        displayMessage("Mobile no is not match with register emailid");
+                        displayMessage(getString(R.string.mobile_number_no_match_with_email));
                     }
                 }
                 SharedHelper.putKey(ForgotPassword.this, "mobile", phoneNumberString);
@@ -295,10 +295,10 @@ public class ForgotPassword extends AppCompatActivity {
                                     getmobile = userObject.getString("mobile");
                                     openphonelogin();
                                 } else {
-                                    displayMessage("Mobile no is not exist with this email_id");
+                                    displayMessage(getString(R.string.mobile_number_is_not_exist_with_email));
                                 }
                             } catch (JSONException e) {
-                                displayMessage("Mobile no is not exist with this email_id");
+                                displayMessage(getString(R.string.mobile_number_is_not_exist_with_email));
                                 e.printStackTrace();
                             }
                         }, error -> {

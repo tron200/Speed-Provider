@@ -156,17 +156,17 @@ public class HistoryDetails extends AppCompatActivity {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setMessage(getString(R.string.cencel_request))
                     .setCancelable(false)
-                    .setPositiveButton("YES", (dialog, id) -> {
+                    .setPositiveButton(getString(R.string.yes), (dialog, id) -> {
                         dialog.dismiss();
                         cancelRequest();
                     })
-                    .setNegativeButton("NO", (dialog, id) -> dialog.dismiss());
+                    .setNegativeButton(getString(R.string.no), (dialog, id) -> dialog.dismiss());
             AlertDialog alert = builder.create();
             alert.show();
         });
 
         btnStartRide.setOnClickListener(view -> {
-            Toast.makeText(getApplication(), "Start Ride", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplication(), getString(R.string.start_ride), Toast.LENGTH_SHORT).show();
             String res = null;
             try {
                 JSONArray array = new JSONArray(history_response);
@@ -215,7 +215,7 @@ public class HistoryDetails extends AppCompatActivity {
                 form = response.optJSONObject(0).optString("schedule_at");
             }
             try {
-                tripDate.setText(getDate(form) + "th " + getMonth(form) + " " + getYear(form) + "\n" + getTime(form));
+                tripDate.setText(getDate(form) + getString(R.string.th) + getMonth(form) + " " + getYear(form) + "\n" + getTime(form));
             } catch (ParseException e) {
                 e.printStackTrace();
             }
@@ -307,7 +307,7 @@ public class HistoryDetails extends AppCompatActivity {
                             form = response.optJSONObject(0).optString("schedule_at");
                         }
                         try {
-                            tripDate.setText(getDate(form) + "th " + getMonth(form) + " " + getYear(form) + "\n" + getTime(form));
+                            tripDate.setText(getDate(form) +getString(R.string.th) + getMonth(form) + " " + getYear(form) + "\n" + getTime(form));
                         } catch (ParseException e) {
                             e.printStackTrace();
                         }
